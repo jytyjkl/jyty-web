@@ -2,7 +2,8 @@ import Layout from "../../components/Layout";
 import events from "../../data/events";
 import styles from "../../styles/events.module.css";
 
-export const runtime = "edge"; // Cloudflare Pages / next-on-pages vaatii tämän dynaamiselle reitille
+// Vaihda 'edge' -> 'experimental-edge' Cloudflare next-on-pages + Next.js 15.3.0
+export const runtime = "experimental-edge";
 
 export async function getStaticPaths() {
   const paths = (Array.isArray(events) ? events : []).map(e => ({
