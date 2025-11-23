@@ -12,7 +12,7 @@ const members = [
     name: "Eemil Hukkanen",
     title: "Varapuheenjohtaja",
     image: "hallitus/eemil.jpg",
-    email: "pj@jytyjkl.fi,
+    email: "pj@jytyjkl.fi",
   },
   {
     name: "Ilmo Kurki",
