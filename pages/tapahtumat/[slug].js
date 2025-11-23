@@ -2,6 +2,8 @@ import Layout from "../../components/Layout";
 import events from "../../data/events";
 import styles from "../../styles/events.module.css";
 
+export const runtime = "edge"; // Cloudflare Pages / next-on-pages vaatii tämän dynaamiselle reitille
+
 export async function getStaticPaths() {
   const paths = (Array.isArray(events) ? events : []).map(e => ({
     params: { slug: e.slug }
