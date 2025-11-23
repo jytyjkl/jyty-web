@@ -97,7 +97,7 @@ const articles = [
       <p>Teekkarielämä Jyväskylässä alkoi vuonna 2021 ilman suurempia fanfaareja. Ensimmäisissä kastajaisissa veteen upposi pienehkö joukko aloittelevia opiskelijoita. Kun kalpeat teekkarit nousivat vedestä hytisten, tuntui mahdolliselta, että Jyväsjärvi sammuttaisi teekkarihengen liekin ennen kuin se edes ehtii kunnolla syttymään. Pienimuotoinen alku ei kuitenkaan ollut huono enne, ehkäpä päinvastoin. Muutamassa vuodessa tekniikanopiskelijoiden määrä on kasvanut, jollei räjähdysmäisesti, niin ainakin jollakin tavoin tussahtaen. Nykyiselläänhän Algolaisia ei voi juuri olla näkemättä..vaikka aktiivisesti yrittäisikin.</p>
       <p>Mutta millaisia Jyväskylän teekkareista sitten on oikein tullut?</p>
       <p>Ideaaliset tekniikan opiskelijathan ovat valtionhallinnon koulutusstrategian mukaan yhdenmukaisia ja keskikokoisia. Kivikylän palvaamoa ja yliopiston tavoitteita lainaten :”Opetusprosessi vaatii tarkkuutta, jotta insinöörit ovat tasalaatuisia ja kauniin muotoisia. Tärkeää on, että opiskelijamateriaali on mahdollisimman tuoretta ja laadukasta. Lisäksi tarvitaan mausteita, suolaa ja muita lisäaineita, jotka antavat insinöörille sen tunnusomaisen maun ja rakenteen.”</p>
-      <p>Jokin osa tässä prosessissa lienee onnistunut. Jyväskylän teekkareissa, kuten myös makkaroissa on, sikamaisia piirteitä. Tarkasti harkittu vaaleanpunamusta haalari edustaa ajatusta tukevasti mudassa olevista sorkista ja täynnä humanistisia ajatuksia olevasta päästä. Insinöörien mauttomuuteen tai rakenteeseen en ota kantaa. Homogeenisuuden tavoite lienee kuitenkin epäonnistunut liki totaalisesti. Vaikka yrittäisikin, niin näin heterogeenisen joukon kokoaminen ei välttämättä onnistuisi.</p>
+      <p>Jokin osa tässä prosessissa lienee onnistunut. Jyväskylän teekkareissa, kuten myös makkaroissa on, sikamaisia piirteitä. Tarkasti harkittu vaaleanpunamusta haalari edustaa ajatusta tukevasti mudassa olevista sorkista ja täynnä humanistisia ajatuksia olevasta päästä. Insinöörien mauttomuuteen tai rakenteeseen en ota kantaa. Homogeenisuuden tavoite lienee kuitenkin epäonnistunut liki totaalisesti. Vaikka yrittäisi, niin näin heterogeenisen joukon kokoaminen ei välttämättä onnistuisi.</p>
       <p>Jos siis tähänkin asti Jyväskylän teekkarituotantoa on vaivannut jonkinlainen aivan liian vapaa henki, niin vielä pahempaa on luvassa, kun teekkariohjelmat leviävät matemaattis-luonnontieteelliseen tiedekuntaan. Epäilemättä diversiteetti ja sekoilun määrä vain lisääntyvät. Tuskin kuitenkaan on epäilyksiä etteikö jo olemassa oleva ponteva, mutta hiukan vinossa oleva teekkarihenki leviäisi myös uusien ohjelmien kandidaatteihin.</p>
     `,
     image: null,
@@ -202,11 +202,11 @@ const articles = [
 
 export default function Vappulehti() {
   return (
-    <Layout>
-      <div>
+    <Layout title="Vappulehti 2025 | JYTY" description="Jyväskylän teekkareiden vappulehti 2025">
+      <div className="container-wide stack-gap">
         <h1 className={styles["vappu-title"]}>Vappulehti 2025</h1>
 
-        <div className={styles["table-of-contents"]}>
+        <div className={`${styles["table-of-contents"]} container-readable`}>
           <h2>Sisällysluettelo</h2>
           <ul>
             {articles.filter(a => a.type === "article").map((article) => (

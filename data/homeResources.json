@@ -1,0 +1,6 @@
+[
+  { "id": "saannot", "title": "Säännöt", "text": "Toiminnan perusta.", "href": "/saannot", "cta": "Avaa" },
+  { "id": "lakkisaannot", "title": "Lakkisäännöt", "text": "Teekkarilakin käyttö.", "href": "/lakkisaannot", "cta": "Avaa" },
+  { "id": "vappulehti", "title": "Vappulehti", "text": "Ensimmäinen julkaisu.", "href": "/vappulehti", "cta": "Lue" },
+  { "id": "striimi", "title": "Vappustriimi", "text": "Live-lähetys wappuna.", "href": "/vappustriimi", "cta": "Striimi" }
+]

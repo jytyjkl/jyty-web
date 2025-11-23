@@ -7,6 +7,10 @@
   --text-main: #111111;
   --accent-red: #e60026;
   --light-bg: #fffdfb;
+  --page-padding-x: clamp(16px, 4vw, 42px);
+  --page-padding-top: 24px;
+  --content-readable: 880px;
+  --content-wide: 1600px;
 }
 
 /* Perusasetukset */
@@ -45,4 +49,62 @@ a:hover {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0;
+}
+
+.container-wide {
+  width: 100%;
+  max-width: var(--content-wide);
+  margin: 0 auto;
+  padding: 0 var(--page-padding-x);
+  box-sizing: border-box;
+}
+
+.container-readable {
+  width: 100%;
+  max-width: var(--content-readable);
+  margin: 0 auto;
+  padding: 0 var(--page-padding-x);
+  box-sizing: border-box;
+}
+
+.stack-gap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px,5vw,54px);
+}
+
+.section {
+  width: 100%;
+  margin: 0;
+}
+
+.bleed {
+  width: 100vw;
+  position: relative;
+  left: calc(50% - 50vw);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page-padding-x: 18px;
+  }
+  .stack-gap {
+    gap: 34px;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flow-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 34px;
+  }
 }

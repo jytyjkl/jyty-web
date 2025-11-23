@@ -1,0 +1,5 @@
+[
+  { "id": "yhteisö", "title": "Yhteisö", "text": "Yhdistämme tekniikan opiskelijat yli rajojen.", "href": "/hallitus", "cta": "Mukana" },
+  { "id": "perinteet", "title": "Perinteet", "text": "Kaste, lakki ja sitsit – päivitettynä nykypäivään.", "href": "/lakkisaannot", "cta": "Lakkisäännöt" },
+  { "id": "kulttuuri", "title": "Kulttuuri", "text": "Kasvava identiteetti ja oma teekkarielämä.", "href": "/saannot", "cta": "Säännöt" }
+]

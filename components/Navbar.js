@@ -1,50 +1,117 @@
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from "../styles/layout.module.css";
 
 export default function Navbar() {
-  const [navOpen, setNavOpen] = useState(false);
+  const [openMobile, setOpenMobile] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const close = () => setOpenMobile(false);
+    router.events?.on("routeChangeComplete", close);
+    return () => router.events?.off("routeChangeComplete", close);
+  }, [router.events]);
+
+  const isActive = (href) => router.pathname === href;
+
+  function handleDropdownKey(e) {
+    if (["Enter"," "].includes(e.key)) {
+      e.preventDefault();
+      e.currentTarget.parentElement.classList.toggle(styles.openDropdown);
+    } else if (e.key === "Escape") {
+      e.currentTarget.parentElement.classList.remove(styles.openDropdown);
+      e.currentTarget.blur();
+    }
+  }
 
   return (
-    <header className={styles.header}>
-      <div className={styles["logo-container"]}>
-        <Link href="/" className={styles["logo-link"]}>
-          <div className={styles.logo}>
-            <img src="/logo.png" alt="JYTY Logo" />
-            <span className={`${styles["logo-text"]} ${styles["desktop-only"]}`}>
-              Jyväskylän Teekkariyhdistys ry
-            </span>
-          </div>
+    <header className={styles.siteHeader}>
+      <div className={styles.headerInner}>
+        <Link href="/" className={styles.brand} aria-label="Etusivu">
+          <img src="/logo.png" alt="JYTY logo" className={styles.brandLogo} />
+          <span className={styles.brandText}>JYTY</span>
         </Link>
 
         <button
-          className={styles["menu-toggle"]}
-          onClick={() => setNavOpen(!navOpen)}
+          className={styles.navToggle}
+          aria-label={openMobile ? "Sulje valikko" : "Avaa valikko"}
+          aria-expanded={openMobile}
+          onClick={() => setOpenMobile((o) => !o)}
         >
-          ☰
+          {openMobile ? "✕" : "☰"}
         </button>
+
+        <nav
+          className={`${styles.primaryNav} ${openMobile ? styles.open : ""}`}
+          aria-label="Päävalikko"
+        >
+          <ul className={styles.navList}>
+            <li>
+              <Link
+                href="/tapahtumat"
+                className={`${styles.navLink} ${isActive("/tapahtumat") ? styles.active : ""}`}
+              >
+                Tapahtumat
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/hallitus"
+                className={`${styles.navLink} ${isActive("/hallitus") ? styles.active : ""}`}
+              >
+                Hallitus
+              </Link>
+            </li>
+            <li className={styles.dropdown}>
+              <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
+                Kulttuuri ▾
+              </button>
+              <ul className={styles.dropdownMenu}>
+                <li>
+                  <Link
+                    href="/saannot"
+                    className={`${styles.dropdownItem} ${isActive("/saannot") ? styles.active : ""}`}
+                  >
+                    Säännöt
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/lakkisaannot"
+                    className={`${styles.dropdownItem} ${isActive("/lakkisaannot") ? styles.active : ""}`}
+                  >
+                    Lakkisäännöt
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className={styles.dropdown}>
+              <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
+                Julkaisut ▾
+              </button>
+              <ul className={styles.dropdownMenu}>
+                <li>
+                  <Link
+                    href="/vappulehti"
+                    className={`${styles.dropdownItem} ${isActive("/vappulehti") ? styles.active : ""}`}
+                  >
+                    Vappulehti
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/vappustriimi"
+                    className={`${styles.dropdownItem} ${isActive("/vappustriimi") ? styles.active : ""}`}
+                  >
+                    Vappustriimi
+                  </Link>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
-
-      <nav className={`${styles.nav} ${navOpen ? styles.open : ""}`}>
-        <ul className={styles["nav-list"]}>
-          <li className={styles["nav-item-dropdown"]}>
-            <span className={styles["nav-link"]}>Yhdistys</span>
-            <ul className={styles["dropdown-menu"]}>
-              <li><Link href="/hallitus" className={styles["nav-link"]}>Hallitus</Link></li>
-              <li><Link href="/saannot" className={styles["nav-link"]}>Säännöt</Link></li>
-              <li><Link href="/lakkisaannot" className={styles["nav-link"]}>Lakkisäännöt</Link></li>
-            </ul>
-          </li>
-
-          <li className={styles["nav-item-dropdown"]}>
-            <span className={styles["nav-link"]}>Julkaisut</span>
-            <ul className={styles["dropdown-menu"]}>
-              <li><Link href="/vappulehti" className={styles["nav-link"]}>Vappulehti 2025</Link></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
     </header>
   );
 }
