@@ -1,0 +1,127 @@
+{
+  "current": 2025,
+  "hallitukset": [
+    {
+      "year": 2025,
+      "members": [
+        {
+          "name": "Juho Järvi",
+          "title": "Puheenjohtaja",
+          "image": "hallitus/juho.jpg",
+          "email": "pj@jytyjkl.fi",
+          "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
+        },
+        {
+          "name": "Eemil Hukkanen",
+          "title": "Varapuheenjohtaja",
+          "image": "hallitus/eemil.jpg",
+          "email": "pj@jytyjkl.fi",
+          "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
+        },
+        {
+          "name": "Ilmo Kurki",
+          "title": "Sihteeri",
+          "image": "hallitus/ilmo.jpg",
+          "email": "ilmo.kurki@jytyjkl.fi",
+          "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
+        },
+        {
+          "name": "Nuutti Rantanen",
+          "title": "Rahastonhoitaja",
+          "image": "hallitus/nuutti.jpg",
+          "email": "nuutti.rantanen@jytyjkl.fi",
+          "description": "Talouden seuranta, budjetointi ja maksuliikenne."
+        },
+        {
+          "name": "Kasper Pelkonen",
+          "title": "Kiltavastaava",
+          "image": "hallitus/kassu.jpg",
+          "email": "kasper.pelkonen@jytyjkl.fi",
+          "description": "Yhteys kiltoihin ja yhteistyö rajapinnat."
+        },
+        {
+          "name": "Lassi Laitinen",
+          "title": "Teekkarikulttuurivastaava",
+          "image": "hallitus/lassi.jpg",
+          "email": "lassi.laitinen@jytyjkl.fi",
+          "description": "Perinteet, tapahtumaperinne ja teekkarisisällöt."
+        },
+        {
+          "name": "Atte Heikkinen",
+          "title": "Viestintävastaava",
+          "image": "hallitus/atte.jpg",
+          "email": "atte.heikkinen@jytyjkl.fi",
+          "description": "Sisäinen ja ulkoinen viestintä, kanavien koordinointi."
+        },
+        {
+          "name": "Juho Kallijärvi",
+          "title": "Mediavastaava",
+          "image": "logo.png",
+          "email": "juho.kallijarvi@jytyjkl.fi",
+          "description": "Media, visuaalinen materiaali ja tuotannot."
+        },
+        {
+          "name": "Theodore Veistos",
+          "title": "Somevastaava",
+          "image": "logo.png",
+          "email": "theodore.veistos@jytyjkl.fi",
+          "description": "Sosiaalinen media ja reaaliaikainen näkyvyys."
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "members": [
+        {
+          "name": "Juho Järvi",
+          "title": "Puheenjohtaja",
+          "image": "logo.png",
+          "email": "",
+          "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
+        },
+        {
+          "name": "Eemil Hukkanen",
+          "title": "Varapuheenjohtaja",
+          "image": "logo.png",
+          "email": "",
+          "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
+        },
+        {
+          "name": "Ilmo Kurki",
+          "title": "Sihteeri",
+          "image": "logo.png",
+          "email": "",
+          "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
+        },
+        {
+          "name": "Nuutti Rantanen",
+          "title": "Rahastonhoitaja",
+          "image": "logo.png",
+          "email": "",
+          "description": "Talouden seuranta, budjetointi ja maksuliikenne."
+        },
+        {
+          "name": "Olli Terävä",
+          "title": "Projektimestari",
+          "image": "logo.png",
+          "email": "",
+          "description": "Projektien koordinointi ja toteutus."
+        },
+        {
+          "name": "Juho Kallijärvi",
+          "title": "Webmastari",
+          "image": "logo.png",
+          "email": "",
+          "description": "Verkkosivut ja digitaaliset palvelut."
+        },
+        {
+          "name": "Petrus Lipsanen",
+          "title": "Hallituksen jäsen",
+          "image": "logo.png",
+          "email": "",
+          "description": "Hallitustyö ja toiminnan tukeminen."
+        }
+      ]
+    }
+  ]
+}

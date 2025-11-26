@@ -1,181 +1,66 @@
 import styles from "../styles/saannot.module.css";
 import Layout from "../components/Layout";
-
-const headings = [
-	{ id: "1", label: "1§ Nimi ja kotipaikka" },
-	{ id: "2", label: "2§ Kieli" },
-	{ id: "3", label: "3§ Tarkoitus" },
-	{ id: "4", label: "4§ Toteuttaminen" },
-	{ id: "5", label: "5§ Toiminnan tukeminen" },
-	{ id: "6", label: "6§ Jäsenyys" },
-	{ id: "7", label: "7§ Varsinaiset kokoukset" },
-	{ id: "8", label: "8§ Hallitus" },
-	{ id: "9", label: "9§ Hallituksen tehtävät" },
-	{ id: "10", label: "10§ Päätöksenteko" },
-	{ id: "11", label: "11§ Nimen kirjoittaminen" },
-	{ id: "12", label: "12§ Tilikausi" },
-	{ id: "13", label: "13§ Sääntöjen muuttaminen" },
-	{ id: "14", label: "14§ Purkaminen" },
-	{ id: "15", label: "15§ Varat purkautuessa" },
-	{ id: "16", label: "16§ Voimaantulo" }
-];
+import saannotData from "../data/saannot.json";
 
 export default function Saannot() {
 	return (
 		<Layout title="Säännöt | JYTY" description="Jyväskylän Teekkariyhdistys ry:n säännöt">
-			<div className="container-wide rules-shell" style={{display:"flex",gap:"40px",alignItems:"flex-start",flexWrap:"wrap"}}>
+			<div className="container-wide" style={{display:"flex",gap:"40px",alignItems:"flex-start",flexWrap:"wrap"}}>
 				<nav className={styles["rules-toc"]} aria-label="Sääntöjen sisällysluettelo">
 					<h3>Sisällys</h3>
 					<ul>
-						{headings.map(h => (
-							<li key={h.id}>
-								<a href={`#p${h.id}`}>{h.label}</a>
+						{saannotData.map(rule => (
+							<li key={rule.id}>
+								<a href={`#p${rule.id}`}>{rule.title}</a>
 							</li>
 						))}
 					</ul>
 				</nav>
-				<div className={`${styles.rules} container-readable`}>
+				<div className={styles.rules}>
 					<h1 className={styles.title}>Jyväskylän Teekkariyhdistys ry - Säännöt</h1>
-					<p className="rules-intro">
+					<p className={styles.intro}>
 						Rekisteröity yhdistys – sääntöjen tiivis kooste ja täydet pykälät alla.
 					</p>
 
-					<h2 id="p1">1§ Yhdistyksen nimi ja kotipaikka
-						<a href="#p1" className={styles["anchor-link"]}>#</a>
-					</h2>
-					<p>Yhdistyksen nimi on Jyväskylän teekkariyhdistys ry ja sen kotipaikka on Jyväskylä.</p>
-
-					<h2 id="p2">2§ Yhdistyksen kieli<a href="#p2" className={styles["anchor-link"]}>#</a></h2>
-					<p>Yhdistyksen virallinen kieli on suomi.</p>
-
-					<h2 id="p3">3§ Yhdistyksen tarkoitus<a href="#p3" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistys toimii Jyväskylän yliopiston teknistieteellisten opiskelijoiden yhdyssiteenä. Yhdistyksen tarkoituksena on edistää jäsenjärjestöjen ja henkilöjäsenten yhteiskunnallisia, ammatillisia, sosiaalisia ja henkisiä sekä opintoihin ja opiskeluun liittyviä pyrkimyksiä sekä vaalia ja kehittää jyväskyläläistä teekkariperinteitä ja -kulttuuria.
-					</p>
-
-					<h2 id="p4">4§ Tarkoituksen toteuttaminen<a href="#p4" className={styles["anchor-link"]}>#</a></h2>
-					<p>Tarkoituksen toteuttamiseksi yhdistys:</p>
-					<ul>
-						<li>tukee jäsenjärjestöjen ja henkilöjäsenten toimintaa, joka edistää opiskelua, opintojen edellytyksiä tai tulevaa uraa</li>
-						<li>toimii edunvalvojana yhdessä jäsenjärjestöjen kanssa koulutus- ja sosiaalipoliittisissa asioissa</li>
-						<li>kohottaa teknillistieteellisen koulutusalan ja sitä opiskelevien arvostusta ja tuntemusta yhteiskunnassamme</li>
-						<li>edistää jäsenjärjestöjen keskinäistä yhteistyötä sekä yhteistyötä muiden toimijoiden välillä</li>
-						<li>toimii tiedonvälittäjänä ja lisää keskustelua yliopistoa, ylioppilaskuntaa ja työelämää koskevissa asioissa</li>
-						<li>harjoittaa tiedotus-, koulutus- ja julkaisutoimintaa suomeksi ja englanniksi</li>
-						<li>sekä voi tarvittaessa ryhtyä muihinkin tarkoitusta edistäviin toimiin</li>
-					</ul>
-
-					<h2 id="p5">5§ Toiminnan tukeminen<a href="#p5" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Toimintansa tukemiseksi yhdistys voi ottaa vastaan avustuksia, lahjoituksia ja testamentteja, järjestää huvitilaisuuksia ja arpajaisia asianomaisilla luvilla, harjoittaa alaan liittyvää julkaisutoimintaa, tehdä talkootöitä. Yhdistys voi omistaa toiminnan kannalta tarpeellista kiinteää ja irtainta omaisuutta sekä osakkeita. Yhdistys voi harjoittaa yhdistyslain 5 §:n mukaista taloudellista toimintaa tarkoituksensa toteuttamiseksi, mutta ei hanki taloudellista etua tai ansiota toimintaansa osallistuville jäsenille.
-					</p>
-
-					<h2 id="p6">6§ Jäsenyys<a href="#p6" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistyksen jäseniksi voivat liittyä jäsenjärjestöt ja henkilöjäsenet, jotka voivat olla joko varsinaisia jäseniä tai kannatusjäseniä.
-					</p>
-					<p>
-						Yhdistyksen varsinaisiksi jäseniksi voidaan hyväksyä Jyväskylän yliopiston teknistieteellisissä koulutusohjelmissa toimivat ainutkertaiset sisäänotolliset opiskelijoiden killat, kaikkien teknillisten koulutusohjelmien vaihto-opiskelijoiden edunvalvontajärjestöt sekä teknistieteellisten koulutusohjelmien opiskelijat henkilöjäseninä.
-						Hallituksen kokous hyväksyy varsinaiset jäsenet yksinkertaisella äänten enemmistöllä. Jäsenhakemuksen voi jättää kirjallisesti hallitukselle.
-					</p>
-					<p>
-						Yhdistyksen kannatusjäseneksi voidaan hyväksyä muita yhdistyksen toiminnasta kiinnostuneita yhteisöjä ja yksityishenkilöitä, jotka haluavat tukea yhdistyksen tarkoitusta ja toimintaa. Yhdistyksen hallitus hyväksyy kannatusjäsenet kirjallisten hakemusten perusteella.
-					</p>
-					<p>
-						Henkilöjäsenten jäsenmaksu maksetaan kahdeksan (8) vuoden välein. Jäsenen tulee erota tai hänet voidaan hallituksen päätöksellä erottaa, kun hänen opintonsa Jyväskylän yliopistossa päättyvät. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsen voidaan erottaa yhdistyksen jäsenyydestä, jos jäsen on laiminlyönyt jäsenmaksun maksamisen, jos jäsen ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsen on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenen erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenellä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan.
-					</p>
-					<p>
-						Jäsenjärjestön jäsenmaksu maksetaan yhden (1) vuoden välein. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsenjärjestön tulee erota tai jäsenjärjestö voidaan erottaa yhdistyksen jäsenyydestä, jos jäsenjärjestö on laiminlyönyt jäsenmaksun maksamisen, jos jäsenjärjestö ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsenjärjestö on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenjärjestön erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenjärjestöllä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan.
-					</p>
-
-					<h2 id="p7">7§ Varsinaiset kokoukset<a href="#p7" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistys pitää vuosittain kaksi varsinaista kokousta. Yhdistyksen kevätkokous pidetään tammi-toukokuussa ja syyskokous syys-joulukuussa hallituksen määräämänä päivänä.
-					</p>
-					<p>Hallituksen on kutsuttava yhdistyksen kokoukset koolle vähintään seitsemän vuorokautta ennen kokousta sähköpostitse jäsenen ilmoittamaan osoitteeseen sekä jäsenille tarkoitetulla some-kanavalla.</p>
-					<h3>Yhdistyksen kevätkokouksessa päätetään seuraavat asiat:</h3>
-					<ul>
-						<li>esitetään tilinpäätös, toimintakertomus ja toiminnantarkastajan lausunto</li>
-						<li>päätetään tilinpäätöksen vahvistamisesta ja vastuuvapauden myöntämisestä hallitukselle ja muille tili- ja vastuuvelvollisille</li>
-					</ul>
-					<h3>Yhdistyksen syyskokouksessa päätetään seuraavat asiat:</h3>
-					<ul>
-						<li>vahvistetaan toimintasuunnitelma sekä talousarvio</li>
-						<li>vahvistetaan ohjesäännöt ja muut tarvittavat säännökset seuraavalle vuodelle</li>
-						<li>valitaan hallituksen puheenjohtaja</li>
-						<li>valitaan hallituksen muut jäsenet</li>
-						<li>valitaan yksi tai kaksi toiminnantarkastajaa ja heille yksi tai kaksi varatoiminnantarkastajaa</li>
-						<li>päätetään varsinaisilta jäseniltä ja kannattavilta jäseniltä perittävän liittymis- ja jäsenmaksun suuruus</li>
-					</ul>
-					<p>
-						Mikäli yhdistyksen jäsen haluaa saada jonkin asian yhdistyksen kevät- tai syyskokouksen käsiteltäväksi, on hänen ilmoitettava siitä kirjallisesti hallitukselle niin hyvissä ajoin, että asia voidaan sisällyttää kokouskutsuun.
-					</p>
-					<p>
-						Henkilöjäsenellä on yksi (1) ääni yhdistyksen kokouksissa ja Jäsenjärjestöllä on yksi (1) ääni jokaista alkavaa viittäkymmentä (50) jäsentä kohden.
-					</p>
-
-					<h2 id="p8">8§ Yhdistyksen hallitus<a href="#p8" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistyksen asioita hoitaa yhdistyksen syyskokouksessa valittu hallitus, jonka toimikausi on kalenterivuosi. Yhdistyksen hallitukseen kuuluu syyskokouksessa valitut puheenjohtaja ja 2-12 muuta varsinaista jäsentä. Hallituksen jäsenen tulee olla valintahetkellä yhdistyksen jäsenjärjestön varsinainen jäsen tai yhdistyksen henkilöjäsen. Hallitus voi ottaa keskuudestaan tai ulkopuoleltaan yhdistykselle tarpeellisia toimihenkilöitä.
-					</p>
-					<p>
-						Hallitus kokoontuu puheenjohtajan tai varapuheenjohtajan kutsusta, kun he katsovat siihen olevan aihetta, tai kun vähintään kolme (3) hallituksen jäsentä sitä vaatii. Hallituksen kokoukset ovat päätösvaltaisia, jos kokouksesta on ilmoitettu hallituksen jäsenille vähintään 3 päivää ennen kokousta, ja kokouksessa ovat läsnä puheenjohtaja tai varapuheenjohtaja sekä vähintään puolet (1/2) hallituksen jäsenistä.
-					</p>
-
-					<h2 id="p9">9§ Hallituksen tehtävät<a href="#p9" className={styles["anchor-link"]}>#</a></h2>
-					<h3>Hallituksen tehtävä on:</h3>
-					<ul>
-						<li>johtaa yhdistyksen toimintaa yhdistyksen sääntöjen ja päätösten mukaan sekä edustaa yhdistystä</li>
-						<li>huolehtia yhdistyksen taloudesta ja hallinnosta</li>
-						<li>valmistella yhdistyksen kokouksissa käsiteltävät asiat</li>
-						<li>laatia yhdistyksen toimintasuunnitelma ja -kertomus sekä talousarvio ja tilinpäätös</li>
-						<li>valita tarvittavat toimihenkilöt ja työryhmät ja valvoa niiden toimintaa</li>
-						<li>vastata lakinkäyttölupien myöntämisestä</li>
-						<li>vastata teekkarilakkiohjesäännöstä huomioiden jäsenten yhdenvertaisen ja tasapuolisen kohtelun</li>
-						<li>ylläpitää teekkarilakkitilauksia</li>
-						<li>tiedottaa jäsenjärjestöille ja henkilöjäsenille hallituksen päätöksiä</li>
-					</ul>
-
-					<h2 id="p10">10§ Päätöksentekojärjestys ja vaalit<a href="#p10" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Äänestyksissä käytetään avointa äänestystä, ellei yhdistyksen kokouksessa vähintään viisi (5) äänivaltaista edustajaa tai hallituksen kokouksissa vähintään kaksi (2) hallituksen jäsentä vaadi suljettua äänestystä. Jos käsiteltävästä asiasta on annettu useita päätösehdotuksia, noudatetaan kokouksen puheenjohtajan päättämää soveltuvaa äänestysjärjestystä. Kokouksen puheenjohtaja antaa äänestystä täsmentävät ohjeet ennen äänestyksen suorittamista. Yhdistyksen kokouksissa ja hallituksen kokouksissa äänestykset ratkaistaan yksinkertaisella äänten enemmistöllä. Äänestyksen mennessä tasan ratkaisee puheenjohtajan kanta, mutta henkilövaaleissa kuitenkin arpa. Mikäli ensimmäisellä kierroksella kukaan ei ole saanut ehdotonta äänten enemmistöä, suoritetaan uusi vaali kahden (2) ensimmäisessä äänestyksessä eniten ääniä saaneen ehdokkaan välillä. Jos on valittavana useita henkilöitä, toimitetaan vaali siirtoääniperiaatteella toimitettavana listavaalina.
-					</p>
-
-					<h2 id="p11">11§ Yhdistyksen nimen kirjoittaminen<a href="#p11" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistyksen nimen kirjoittaa yhdistyksen hallituksen puheenjohtaja yksin tai varapuheenjohtaja yksin. Oikeus yhdistyksen nimen kirjoittamiseen on lisäksi henkilöllä, jolla on siihen hallituksen erikseen antama henkilökohtainen oikeus.
-					</p>
-
-					<h2 id="p12">12§ Tilikausi ja toiminnantarkastajat<a href="#p12" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistyksen tilikausi on kalenterivuosi.
-					</p>
-					<p>
-						Yhdistyksen hallintoa ja taloutta valvoo yksi tai kaksi (1-2) toiminnantarkastajaa. Toiminnantarkastajien toimikausi on kalenterivuosi. Toiminnantarkastajilla on läsnäolo- ja puheoikeus yhdistyksen ja hallituksen kokouksissa, jossa käsitellään heidän tehtäviinsä liittyviä asioita. Toiminnantarkastajilla on oikeus halutessaan tutustua yhdistyksen talouteen ja hallintoon.
-					</p>
-					<p>
-						Tilinpäätös sekä yhdistyksen kirjanpito- ja hallintoasiakirjat on annettava toiminnantarkastajille vähintään neljä (4) viikkoa ennen yhdistyksen kevätkokousta. Toiminnantarkastajien tulee antaa kirjallinen lausuntonsa viimeistään kahta (2) viikkoa ennen kokousta.
-					</p>
-
-					<h2 id="p13">13§ Sääntöjen muuttaminen<a href="#p13" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Päätös sääntöjen muuttamisesta on tehtävä yhdistyksen kokouksessa. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä.
-					</p>
-
-					<h2 id="p14">14§ Yhdistyksen purkaminen<a href="#p14" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Päätös yhdistyksen purkamisesta on tehtävä kahdessa peräkkäisessä yhdistyksen kokouksessa, jotka on pidettävä vähintään kahden viikon välein. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä.
-					</p>
-
-					<h2 id="p15">15§ Yhdistyksen varojen käyttö sen purkautuessa<a href="#p15" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Yhdistyksen purkautuessa varat käytetään yhdistyksen tarkoituksen edistämiseen purkamisesta päättävän kokouksen määräämällä tavalla, esimerkiksi luovuttamalla ne yhdistyksen kanssa samoja tarkoitusperiä ajavalle rekisteröidylle yhdistykselle, julkisyhteisölle tai säätiölle.
-					</p>
-
-					<h2 id="p16">16§ Voimaantulo<a href="#p16" className={styles["anchor-link"]}>#</a></h2>
-					<p>
-						Sääntömuutos tai purkautumispäätös tulee voimaan, kun se on merkitty yhdistysrekisteriin.
-					</p>
+					{saannotData.map((rule) => (
+						<section key={rule.id} id={`p${rule.id}`} className={styles.section}>
+							<h2>
+								{rule.title}
+								<a href={`#p${rule.id}`} className={styles["anchor-link"]} aria-label="Linkki tähän osioon">#</a>
+							</h2>
+							
+							{rule.content && <p>{rule.content}</p>}
+							
+							{rule.items && (
+								<ul>
+									{rule.items.map((item, idx) => (
+										<li key={idx}>{item}</li>
+									))}
+								</ul>
+							)}
+							
+							{rule.paragraphs && rule.paragraphs.map((para, idx) => (
+								<p key={idx}>{para}</p>
+							))}
+							
+							{rule.subsections && rule.subsections.map((sub, idx) => (
+								<div key={idx}>
+									<h3>{sub.heading}</h3>
+									{sub.items && (
+										<ul>
+											{sub.items.map((item, i) => (
+												<li key={i}>{item}</li>
+											))}
+										</ul>
+									)}
+								</div>
+							))}
+							
+							{rule.footerParagraphs && rule.footerParagraphs.map((para, idx) => (
+								<p key={idx}>{para}</p>
+							))}
+						</section>
+					))}
 				</div>
 			</div>
 		</Layout>

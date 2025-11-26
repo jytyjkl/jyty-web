@@ -1,0 +1,54 @@
+[
+  {
+    "id": "lakki-kuvaus",
+    "title": "Lakin kuvaus",
+    "paragraphs": [
+      "Jyväskylän teekkarilakki on kahdeksankulmainen, Jyväskylän kävelykadun Kompassin muodon mukaan. Lakin sisäpuoli on Jyväskylän yliopiston värien mukaisesti puoliksi sininen ja puoliksi oranssi. Lakin kokardissa yhdistyvät Jyväskylä sekä tekniikka. Kokardi muodostuu Jyväskylän ylioppilaskunnan (JYY) soihdusta, jota ympäröi tekniikan ratas.",
+      "Ensimmäisen vuoden diplomi-insinööriopiskelijoista eli fukseista tulee teekkareita vappuna, jolloin kasteen jälkeen lakin saa painaa päähänsä. Lakin kantoaika alkaa siis vapun kasteesta ja päättyy syyskuun viimeisenä päivänä pidettäviin lakinlaskijaisiin."
+    ]
+  },
+  {
+    "id": "kantoaika",
+    "title": "2 § Lakin kantoaika",
+    "content": "Teekkarilakin kantoaika on 30.4.–30.9. Teekkarilakin saa painaa päähänsä 30.4. samaan aikaan, kun Minna Canthin patsas lakitetaan kello 18.00. Lakki lasketaan 30.9. kello 00.00. Muina aikoina teekkarilakkia ei saa kantaa ilman erillistä lakkilupaa, ellei pysyväisohjesääntö erikseen sitä salli. Lakkilupaa haetaan kirjallisesti Jyväskylän teekkariyhdistys ry:n hallitukselta vähintään kolmea arkipäivää etukäteen. Hakemuksessa on käytävä selväksi, mihin tarkoitukseen lakkia aikoo käyttää. Lakkia saa käyttää vain lakkiluvassa määrättynä aikana ja siinä mainitussa tilaisuudessa."
+  },
+  {
+    "id": "kanto-oikeus",
+    "title": "3 § Lakin kanto-oikeus",
+    "content": "Kanto-oikeus voidaan myöntää opiskelijalle, joka opiskelee Jyväskylän yliopistossa tekniikan kandidaatiksi ja/tai diplomi-insinööriksi tai tekniikan tohtoriksi. Lakki ojennetaan opiskelija- ja teekkariperinteisiin perehtyneelle ensimmäisen vuoden tekniikan ylioppilaalle 30.4. yhteisessä teekkarikasteessa, muutoin lakki ojennetaan äitienpäivänä. Lakin käyttöoikeus on elinikäinen."
+  },
+  {
+    "id": "kaytto",
+    "title": "4 § Lakin käyttö",
+    "content": "Teekkarilakkia käytetään kunnioittaen ja sitä halventamatta. Lakkia ei saa luovuttaa henkilöille, joilla ei ole teekkarilakin kanto-oikeutta. Teekkareiden kokoontuessa noustaan keskiyöllä korkeimmalle mahdolliselle kohdalle, nostetaan lakki käsi ojennettuna pään yläpuolelle ja lauletaan Teekkarihymni pimennetyssä tilassa, mikäli mahdollista. Lakin kantoaikana lakki lasketaan takaisin päähän teekkarihymnin jälkeen, mutta lakinlaskijaisissa se lasketaan olkapäälle."
+  },
+  {
+    "id": "pysyva",
+    "title": "5 § Pysyväisohjesääntö",
+    "content": "Teekkarilakkia saa käyttää ilman erillistä lupaa seuraavissa tilaisuuksissa:",
+    "items": [
+      "Jyväskylän yliopiston esittelytilaisuuksissa",
+      "Itsenäisyyspäivän soihtukulkueessa",
+      "Lippuairueessa toimiville",
+      "Jäynäkisoissa",
+      "Titeenien taistoissa",
+      "TEKin valtakunnallisissa tapahtumissa",
+      "Tietoteekkariyhdistys ry:n valtakunnallisissa tapahtumissa",
+      "Jyväskylän yliopiston ylioppilaskunnan (JYY) edustajiston kokouksissa",
+      "Suomen ylioppilaskuntien liiton (SYL) liittokokouksissa"
+    ]
+  },
+  {
+    "id": "muut",
+    "title": "6 § Muut säädökset",
+    "paragraphs": [
+      "Teekkarilakkia ei kuulu korjata itse, ja jokaista reikää ja repsottavaa kohtaa vaalitaan merkkinä menneistä vuosista. Jos kuitenkin lakin kunto heikkenee liikaa, niin lakki kuuluu hävittää olemattomiin kaapinperälle ja hankkia uusi lakki tilalle.",
+      "Jos teekkari osoittaa jatkuvaa piittaamattomuutta teekkarilakkia kohtaan, niin häntä voidaan rangaista teekkarikerhon päättämällä tavalla."
+    ]
+  },
+  {
+    "id": "muutokset",
+    "title": "7 § Ohjesäännön muuttaminen",
+    "content": "Tämä ohjesääntö hyväksyttiin ensimmäistä kertaa keväällä 2022. Ohjesääntöä voidaan muuttaa tätä ohjesääntöä ylläpitävän yhdistyksen kokouksessa. Tätä ohjesääntöä ylläpitää Jyväskylän teekkariyhdistys ry."
+  }
+]

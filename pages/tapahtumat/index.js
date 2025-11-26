@@ -8,25 +8,46 @@ export default function TapahtumatIndex() {
   return (
     <Layout title="Tapahtumat | JYTY" description="Jyväskylän teekkarit tapahtumat">
       <div className="container-wide stack-gap">
-        <h1 className={styles["events-title"]}>Tapahtumat</h1>
+        <header className={styles["events-header"]}>
+          <h1 className={styles["events-title"]}>Tapahtumat</h1>
+          <p className={styles["events-intro"]}>
+            Seuraa JYTYn tapahtumia ja tule mukaan rakentamaan teekkariyhteisöä Jyväskylässä.
+          </p>
+        </header>
+
         {sorted.length === 0 ? (
           <div className={styles["events-empty"]}>
             Tapahtumia ei ole vielä julkaistu. Julkaisemme ensimmäiset tapahtumat pian – seuraa kanaviamme!
           </div>
         ) : (
-          <ul className={styles["event-list"]}>
+          <div className={styles["events-grid"]}>
             {sorted.map(e => (
-              <li key={e.slug} className={styles["event-card"]}>
-                <h2>
-                  <Link href={`/tapahtumat/${e.slug}`}>{e.title}</Link>
-                </h2>
-                <div className={styles["event-meta"]}>
-                  {new Date(e.date).toLocaleDateString("fi-FI")} · {e.location}
+              <article key={e.slug} className={styles["event-card"]}>
+                <div className={styles["event-image-container"]}>
+                  <img 
+                    src={e.image ? `/${e.image}` : '/logo.png'} 
+                    alt={e.title}
+                    className={styles["event-image"]}
+                  />
                 </div>
-                <p className={styles["event-intro"]}>{e.intro}</p>
-              </li>
+                <div className={styles["event-content"]}>
+                  <div className={styles["event-meta"]}>
+                    <span className={styles["event-date"]}>
+                      {new Date(e.date).toLocaleDateString("fi-FI")}
+                    </span>
+                    <span className={styles["event-location"]}>{e.location}</span>
+                  </div>
+                  <h2 className={styles["event-card-title"]}>
+                    <Link href={`/tapahtumat/${e.slug}`}>{e.title}</Link>
+                  </h2>
+                  <p className={styles["event-intro"]}>{e.intro}</p>
+                  <Link href={`/tapahtumat/${e.slug}`} className={styles["event-link"]}>
+                    Lisätiedot →
+                  </Link>
+                </div>
+              </article>
             ))}
-          </ul>
+          </div>
         )}
       </div>
     </Layout>

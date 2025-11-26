@@ -65,9 +65,17 @@ export default function Navbar() {
             </li>
             <li className={styles.dropdown}>
               <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
-                Kulttuuri ▾
+                Arkisto ▾
               </button>
               <ul className={styles.dropdownMenu}>
+                <li>
+                  <Link
+                    href="/arkisto"
+                    className={`${styles.dropdownItem} ${isActive("/arkisto") ? styles.active : ""}`}
+                  >
+                    Vappumateriaalit
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="/saannot"
@@ -82,21 +90,6 @@ export default function Navbar() {
                     className={`${styles.dropdownItem} ${isActive("/lakkisaannot") ? styles.active : ""}`}
                   >
                     Lakkisäännöt
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li className={styles.dropdown}>
-              <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
-                Arkisto ▾
-              </button>
-              <ul className={styles.dropdownMenu}>
-                <li>
-                  <Link
-                    href="/arkisto"
-                    className={`${styles.dropdownItem} ${isActive("/arkisto") ? styles.active : ""}`}
-                  >
-                    Vappumateriaalit
                   </Link>
                 </li>
               </ul>

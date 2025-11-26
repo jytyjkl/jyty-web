@@ -22,6 +22,13 @@ export default function TapahtumaPage({ event }) {
     <Layout title={`${event.title} | JYTY`} description={event.intro || "Tapahtuma"}>
       <div className={styles["events-container"]}>
         <div className={styles["single-event"]}>
+          {event.image && (
+            <img 
+              src={`/${event.image}`} 
+              alt={event.title}
+              className={styles["event-hero-image"]}
+            />
+          )}
           <h1>{event.title}</h1>
           <div className={styles["event-meta"]}>
             {event.date ? new Date(event.date).toLocaleDateString("fi-FI") : ""} · {event.location}

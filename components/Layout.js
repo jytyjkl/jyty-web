@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import styles from "../styles/layout.module.css";
 import Head from "next/head";
 
-export default function Layout({ children, title="JYTY", description="Jyv채skyl채n Teekkariyhdistys" }) {
+export default function Layout({ children, title="JYTY", description="Jyv채skyl채n Teekkariyhdistys", fullWidth=false }) {
   return (
     <div className={styles.layout}>
       <Head>
@@ -15,10 +15,14 @@ export default function Layout({ children, title="JYTY", description="Jyv채skyl�
         <meta property="og:type" content="website"/>
       </Head>
       <Navbar />
-      <main id="main" className={styles["layout-main"]}>
-        <div className="container-wide stack-gap">
-          {children}
-        </div>
+      <main id="main" className={styles["layout-main"]} style={{display: 'flex', flexDirection: 'column'}}>
+        {fullWidth ? (
+          children
+        ) : (
+          <div className="container-wide stack-gap">
+            {children}
+          </div>
+        )}
       </main>
       <Footer />
     </div>
