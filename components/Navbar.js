@@ -88,26 +88,26 @@ export default function Navbar() {
             </li>
             <li className={styles.dropdown}>
               <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
-                Julkaisut ▾
+                Arkisto ▾
               </button>
               <ul className={styles.dropdownMenu}>
                 <li>
                   <Link
-                    href="/vappulehti"
-                    className={`${styles.dropdownItem} ${isActive("/vappulehti") ? styles.active : ""}`}
+                    href="/arkisto"
+                    className={`${styles.dropdownItem} ${isActive("/arkisto") ? styles.active : ""}`}
                   >
-                    Vappulehti
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/vappustriimi"
-                    className={`${styles.dropdownItem} ${isActive("/vappustriimi") ? styles.active : ""}`}
-                  >
-                    Vappustriimi
+                    Vappumateriaalit
                   </Link>
                 </li>
               </ul>
+            </li>
+            <li>
+              <Link
+                href="/kuulumiset"
+                className={`${styles.navLink} ${isActive("/kuulumiset") ? styles.active : ""}`}
+              >
+                Kuulumiset
+              </Link>
             </li>
           </ul>
         </nav>

@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import Link from "next/link";
-import { events } from "../../data/events";
+import events from "../../data/events.json";
 import styles from "../../styles/events.module.css";
 
 export default function TapahtumatIndex() {

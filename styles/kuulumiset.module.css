@@ -1,0 +1,180 @@
+.news-title {
+  font-size: 2.5em;
+  text-align: center;
+  color: var(--text-main);
+  margin-bottom: 40px;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  transition: transform .15s ease;
+  display: flex;
+  gap: 20px;
+}
+
+.news-card:hover {
+  transform: translateY(-2px);
+}
+
+.news-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.news-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: var(--text-main);
+}
+
+.news-card h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-card h2 a:hover {
+  color: var(--accent-red);
+}
+
+.news-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.news-intro {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.news-link {
+  font-weight: 600;
+  color: var(--accent-red);
+  text-decoration: none;
+}
+
+.news-link:hover {
+  text-decoration: underline;
+}
+
+.single-news {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.single-news h1 {
+  margin: 0 0 20px;
+  font-size: 2.2em;
+  color: var(--text-main);
+}
+
+.news-hero-image {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.news-body {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #333;
+}
+
+.news-empty {
+  background: #fff;
+  border: 1px dashed #ccc;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .news-card {
+    flex-direction: column;
+  }
+  
+  .news-image {
+    width: 100%;
+  }
+  
+  .single-news {
+    padding: 20px;
+  }
+}
+
+.nav-link {
+  font-weight: 600;
+  color: var(--accent-red);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  color: var(--text-main);
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-list-item {
+  flex: 1;
+}
+
+.nav-list-item:hover {
+  color: var(--accent-red);
+}
+
+.nav-list-item.active {
+  color: var(--text-main);
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list-item a:hover {
+  color: var(--accent-red);
+}
+
+.nav-list-item.active a {
+  color: var(--text-main);
+}
+
+.nav-list-item.active a:hover {
+  color: var(--accent-red);
+}

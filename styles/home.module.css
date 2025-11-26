@@ -731,6 +731,17 @@
   text-align: center;
 }
 
+.welcomeHeroCompact {
+  width: 100%;
+  background: linear-gradient(115deg,#fff,#ffe9ec);
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  margin: 0 0 50px;
+  text-align: center;
+}
+
 .welcomeInner {
   max-width: 960px;
   margin: 0 auto;
@@ -823,6 +834,31 @@
 }
 
 .ctaPrimarySmall:hover { background:#c4122f; }
+
+/* Rinnakkain layout */
+.contentSideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.eventsGridCompact,
+.newsGridCompact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .contentSideBySide {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
 
 @media (max-width: 760px) {
   .heroTitle { font-size: 2.4rem; }

@@ -1,19 +1,18 @@
 import Layout from "../../components/Layout";
-import events from "../../data/events";
+import events from "../../data/events.json";
 import styles from "../../styles/events.module.css";
 
-// Vaihda 'edge' -> 'experimental-edge' Cloudflare next-on-pages + Next.js 15.3.0
 export const runtime = "experimental-edge";
 
 export async function getStaticPaths() {
-  const paths = (Array.isArray(events) ? events : []).map(e => ({
+  const paths = events.map(e => ({
     params: { slug: e.slug }
   }));
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
-  const event = (Array.isArray(events) ? events : []).find(e => e.slug === params.slug);
+  const event = events.find(e => e.slug === params.slug);
   if (!event) return { notFound: true };
   return { props: { event } };
 }
