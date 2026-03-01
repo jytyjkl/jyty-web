@@ -16,7 +16,7 @@ export default function Navbar() {
   const isActive = (href) => router.pathname === href;
 
   function handleDropdownKey(e) {
-    if (["Enter"," "].includes(e.key)) {
+    if (["Enter", " "].includes(e.key)) {
       e.preventDefault();
       e.currentTarget.parentElement.classList.toggle(styles.openDropdown);
     } else if (e.key === "Escape") {
@@ -55,25 +55,21 @@ export default function Navbar() {
                 Tapahtumat
               </Link>
             </li>
-            <li>
-              <Link
-                href="/hallitus"
-                className={`${styles.navLink} ${isActive("/hallitus") ? styles.active : ""}`}
-              >
-                Hallitus
-              </Link>
-            </li>
             <li className={styles.dropdown}>
-              <button className={styles.navLink} type="button" onKeyDown={handleDropdownKey}>
-                Arkisto ▾
+              <button
+                className={styles.navLink}
+                type="button"
+                onKeyDown={handleDropdownKey}
+              >
+                Yhdistys ▾
               </button>
               <ul className={styles.dropdownMenu}>
                 <li>
                   <Link
-                    href="/arkisto"
-                    className={`${styles.dropdownItem} ${isActive("/arkisto") ? styles.active : ""}`}
+                    href="/hallitus"
+                    className={`${styles.dropdownItem} ${isActive("/hallitus") ? styles.active : ""}`}
                   >
-                    Vappumateriaalit
+                    Hallitus
                   </Link>
                 </li>
                 <li>
@@ -84,12 +80,31 @@ export default function Navbar() {
                     Säännöt
                   </Link>
                 </li>
+              </ul>
+            </li>
+            <li className={styles.dropdown}>
+              <button
+                className={styles.navLink}
+                type="button"
+                onKeyDown={handleDropdownKey}
+              >
+                Kulttuuri ▾
+              </button>
+              <ul className={styles.dropdownMenu}>
                 <li>
                   <Link
-                    href="/lakkisaannot"
-                    className={`${styles.dropdownItem} ${isActive("/lakkisaannot") ? styles.active : ""}`}
+                    href="/arkisto"
+                    className={`${styles.dropdownItem} ${isActive("/arkisto") ? styles.active : ""}`}
                   >
-                    Lakkisäännöt
+                    Arkisto
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/lakkiohjesaanto"
+                    className={`${styles.dropdownItem} ${isActive("/lakkiohjesaanto") ? styles.active : ""}`}
+                  >
+                    Lakkiohjesääntö
                   </Link>
                 </li>
               </ul>
