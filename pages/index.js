@@ -5,7 +5,8 @@ import events from "../data/events.json";
 import news from "../data/kuulumiset.json";
 
 export default function Home() {
-  const upcoming = [...events].sort((a,b)=>a.date.localeCompare(b.date)).slice(0,4);
+  const today = new Date().toISOString().split('T')[0]
+  const upcoming = [...events].filter(e => e.date >= today).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,4);
   const recentNews = [...news].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   return (
@@ -31,14 +32,14 @@ export default function Home() {
               <Link href="/tapahtumat" className={styles.sectionCta}>Kaikki →</Link>
             </div>
             {upcoming.length === 0 ? (
-              <div className={styles.eventsEmpty}>Ei julkaistuja tapahtumia.</div>
+              <div className={styles.eventsEmpty}>Ei tulevia tapahtumia.</div>
             ) : (
               <ul className={styles.eventsGridCompact}>
                 {upcoming.slice(0, 3).map(e=>(
                   <li key={e.slug} className={styles.eventItem}>
                     {e.image && (
-                      <img 
-                        src={`/${e.image}`} 
+                      <img
+                        src={`/${e.image}`}
                         alt={e.title}
                         className={styles.eventItemImage}
                       />
