@@ -107,6 +107,14 @@ export default function Navbar() {
                     Lakkiohjesääntö
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScDCByHY9gRwloyc3xe2o4h54Upzh7s56CkYI9OuQsOfzsncg/viewform"
+                    className={`${styles.dropdownItem}`}
+                  >
+                    Hae lakinkäyttölupaa
+                  </Link>
+                </li>
               </ul>
             </li>
             <li>
