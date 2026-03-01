@@ -2,8 +2,6 @@ import Layout from "../../components/Layout";
 import events from "../../data/events.json";
 import styles from "../../styles/events.module.css";
 
-export const runtime = "experimental-edge";
-
 export async function getStaticPaths() {
   const paths = events.map(e => ({
     params: { slug: e.slug }
@@ -23,8 +21,8 @@ export default function TapahtumaPage({ event }) {
       <div className={styles["events-container"]}>
         <div className={styles["single-event"]}>
           {event.image && (
-            <img 
-              src={`/${event.image}`} 
+            <img
+              src={`/${event.image}`}
               alt={event.title}
               className={styles["event-hero-image"]}
             />
