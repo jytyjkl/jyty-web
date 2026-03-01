@@ -1,5 +1,5 @@
 {
-  "current": 2025,
+  "current": 2026,
   "hallitukset": [
     {
       "year": 2025,
@@ -75,28 +75,28 @@
         {
           "name": "Juho Järvi",
           "title": "Puheenjohtaja",
-          "image": "logo.png",
+          "image": "hallitus/juho.jpg",
           "email": "",
           "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
         },
         {
           "name": "Eemil Hukkanen",
           "title": "Varapuheenjohtaja",
-          "image": "logo.png",
+          "image": "hallitus/eemil.jpg",
           "email": "",
           "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
         },
         {
           "name": "Ilmo Kurki",
           "title": "Sihteeri",
-          "image": "logo.png",
+          "image": "hallitus/ilmo.jpg",
           "email": "",
           "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
         },
         {
           "name": "Nuutti Rantanen",
           "title": "Rahastonhoitaja",
-          "image": "logo.png",
+          "image": "hallitus/nuutti.jpg",
           "email": "",
           "description": "Talouden seuranta, budjetointi ja maksuliikenne."
         },
