@@ -4,7 +4,7 @@ import lakkisaannotData from "../data/lakkisaannot.json";
 
 export default function Lakkisaannot() {
   return (
-    <Layout title="Teekkarilakkiohjesääntö | JYTY" description="Jyväskylän teekkarilakin ohjesääntö">
+    <Layout title="Lakkiohjesääntö - Jyväskylän Teekkariyhdistys" description="Jyväskylän teekkarilakin ohjesääntö">
       <div className="container-wide" style={{display:"flex",gap:"40px",flexWrap:"wrap"}}>
         <nav className={styles["rules-toc"]} aria-label="Lakkiohjesäännön sisällysluettelo">
           <h3>Sisällys</h3>
@@ -26,9 +26,9 @@ export default function Lakkisaannot() {
                 {rule.title}
                 <a href={`#${rule.id}`} className={styles["anchor-link"]} aria-label="Linkki tähän osioon">#</a>
               </h2>
-              
+
               {rule.content && <p>{rule.content}</p>}
-              
+
               {rule.items && (
                 <ul>
                   {rule.items.map((item, idx) => (
@@ -36,7 +36,7 @@ export default function Lakkisaannot() {
                   ))}
                 </ul>
               )}
-              
+
               {rule.paragraphs && rule.paragraphs.map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}

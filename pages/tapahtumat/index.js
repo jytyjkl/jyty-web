@@ -6,7 +6,7 @@ import styles from "../../styles/events.module.css";
 export default function TapahtumatIndex() {
   const sorted = [...events].sort((a,b) => a.date.localeCompare(b.date));
   return (
-    <Layout title="Tapahtumat | JYTY" description="Jyväskylän teekkarit tapahtumat">
+    <Layout title="Tapahtumat - Jyväskylän Teekkariyhdistys" description="Tutustu tuleviin ja menneisiin tapahtumiin">
       <div className="container-wide stack-gap">
         <header className={styles["events-header"]}>
           <h1 className={styles["events-title"]}>Tapahtumat</h1>
@@ -24,8 +24,8 @@ export default function TapahtumatIndex() {
             {sorted.map(e => (
               <article key={e.slug} className={styles["event-card"]}>
                 <div className={styles["event-image-container"]}>
-                  <img 
-                    src={e.image ? `/${e.image}` : '/logo.png'} 
+                  <img
+                    src={e.image ? `/${e.image}` : '/logo.png'}
                     alt={e.title}
                     className={styles["event-image"]}
                   />

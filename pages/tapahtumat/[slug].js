@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 
 export default function TapahtumaPage({ event }) {
   return (
-    <Layout title={`${event.title} | JYTY`} description={event.intro || "Tapahtuma"}>
+    <Layout title={`${event.title} - Jyväskylän Teekkariyhdistys`} description={event.intro || "Tapahtuma"}>
       <div className={styles["events-container"]}>
         <div className={styles["single-event"]}>
           {event.image && (

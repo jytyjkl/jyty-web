@@ -4,7 +4,7 @@ import saannotData from "../data/saannot.json";
 
 export default function Saannot() {
 	return (
-		<Layout title="Säännöt | JYTY" description="Jyväskylän Teekkariyhdistys ry:n säännöt">
+		<Layout title="Yhdistyksen säännöt - Jyväskylän Teekkariyhdistys" description="Jyväskylän Teekkariyhdistyksen säännöt">
 			<div className="container-wide" style={{display:"flex",gap:"40px",alignItems:"flex-start",flexWrap:"wrap"}}>
 				<nav className={styles["rules-toc"]} aria-label="Sääntöjen sisällysluettelo">
 					<h3>Sisällys</h3>
@@ -28,9 +28,9 @@ export default function Saannot() {
 								{rule.title}
 								<a href={`#p${rule.id}`} className={styles["anchor-link"]} aria-label="Linkki tähän osioon">#</a>
 							</h2>
-							
+
 							{rule.content && <p>{rule.content}</p>}
-							
+
 							{rule.items && (
 								<ul>
 									{rule.items.map((item, idx) => (
@@ -38,11 +38,11 @@ export default function Saannot() {
 									))}
 								</ul>
 							)}
-							
+
 							{rule.paragraphs && rule.paragraphs.map((para, idx) => (
 								<p key={idx}>{para}</p>
 							))}
-							
+
 							{rule.subsections && rule.subsections.map((sub, idx) => (
 								<div key={idx}>
 									<h3>{sub.heading}</h3>
@@ -55,7 +55,7 @@ export default function Saannot() {
 									)}
 								</div>
 							))}
-							
+
 							{rule.footerParagraphs && rule.footerParagraphs.map((para, idx) => (
 								<p key={idx}>{para}</p>
 							))}

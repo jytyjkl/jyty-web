@@ -27,8 +27,8 @@ export default function Hallitus() {
 
 	return (
 		<Layout
-			title="Hallitus | JYTY"
-			description="Jyväskylän Teekkariyhdistys ry hallitus"
+			title="Hallitus - Jyväskylän Teekkariyhdistys"
+			description="Tutustu Jyväskylän Teekkariyhdistyksen hallitukseen"
 		>
 			<div className="container-wide stack-gap">
 				<header className={styles.pageHeader}>

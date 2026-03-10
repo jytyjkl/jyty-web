@@ -28,7 +28,7 @@ export default function Arkisto() {
   const sorted = [...materials].sort((a, b) => b.year - a.year);
 
   return (
-    <Layout title="Arkisto | JYTY" description="JYTYn vappumateriaalien ja tapahtumien arkisto">
+    <Layout title="Arkisto - Jyväskylän Teekkariyhdistys" description="Vappu- ja tapahtumamateriaalien arkisto">
       <div className="container-wide stack-gap">
         <header className={styles.header}>
           <h1 className={styles.title}>Arkisto</h1>
@@ -47,8 +47,8 @@ export default function Arkisto() {
               <article key={item.id} className={styles.card}>
                 {item.image && (
                   <div className={styles.imageContainer}>
-                    <img 
-                      src={`/${item.image}`} 
+                    <img
+                      src={`/${item.image}`}
                       alt={item.title}
                       className={styles.image}
                     />

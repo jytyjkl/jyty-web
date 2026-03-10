@@ -7,7 +7,7 @@ export default function UutisetIndex() {
   const sorted = [...news].sort((a, b) => b.date.localeCompare(a.date));
 
   return (
-    <Layout title="Uutiset | JYTY" description="Jyväskylän teekkareiden uutiset">
+    <Layout title="Kuulumiset - Jyväskylän Teekkariyhdistys" description="Lue viimeisimmät kuulumiset">
       <div className="container-wide stack-gap">
         <h1 className={styles["news-title"]}>Kuulumiset</h1>
         {sorted.length === 0 ? (
@@ -19,8 +19,8 @@ export default function UutisetIndex() {
             {sorted.map(n => (
               <li key={n.slug} className={styles["news-card"]}>
                 {n.image && (
-                  <img 
-                    src={`/${n.image}`} 
+                  <img
+                    src={`/${n.image}`}
                     alt={n.title}
                     className={styles["news-image"]}
                   />

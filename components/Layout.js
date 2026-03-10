@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import styles from "../styles/layout.module.css";
 import Head from "next/head";
 
-export default function Layout({ children, title="JYTY", description="Jyväskylän Teekkariyhdistys", fullWidth=false }) {
+export default function Layout({ children, title="Jyväskylän Teekkariyhdistys", description="", fullWidth=false }) {
   return (
     <div className={styles.layout}>
       <Head>

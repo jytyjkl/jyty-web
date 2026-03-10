@@ -202,7 +202,7 @@ const articles = [
 
 export default function Vappulehti() {
   return (
-    <Layout title="Vappulehti 2025 | JYTY" description="Jyväskylän teekkareiden vappulehti 2025">
+    <Layout title="Vappulehti 2025 - Jyväskylän Teekkariyhdistys" description="Jyväskylän teekkareiden vappulehti 2025">
       <div className="container-wide stack-gap">
         <h1 className={styles["vappu-title"]}>Vappulehti 2025</h1>
 

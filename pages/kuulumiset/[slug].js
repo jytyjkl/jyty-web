@@ -15,7 +15,7 @@ export async function getStaticProps({ params }) {
 
 export default function UutisPage({ news }) {
   return (
-    <Layout title={`${news.title} | JYTY`} description={news.intro}>
+    <Layout title={`${news.title} - Jyväskylän Teekkariyhdistys`} description={news.intro}>
       <div className="container-wide">
         <article className={styles["single-news"]}>
           <h1>{news.title}</h1>

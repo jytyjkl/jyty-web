@@ -10,7 +10,7 @@ export default function Home() {
   const recentNews = [...news].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   return (
-    <Layout title="JYTY" description="Jyväskylän Teekkariyhdistys ry" fullWidth={true}>
+    <Layout title="Jyväskylän Teekkariyhdistys" description="Jyväskyläläistä teekkarikulttuuria" fullWidth={true}>
       {/* Hero - koko leveys */}
       <section className={styles.welcomeHeroCompact}>
         <div className={styles.welcomeInner}>
