@@ -53,9 +53,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      
+
       <div className={styles["footer-bottom"]}>
-        <p>© 2025 Jyväskylän teekkariyhdistys. Kaikki oikeudet pidätetään.</p>
+        <p>© 2026 Jyväskylän teekkariyhdistys ry. Kaikki oikeudet pidätetään.</p>
       </div>
     </footer>
   );
