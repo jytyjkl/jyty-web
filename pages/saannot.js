@@ -4,7 +4,7 @@ import saannotData from "../data/saannot.json";
 
 export default function Saannot() {
 	return (
-		<Layout title="Yhdistyksen säännöt - Jyväskylän Teekkariyhdistys" description="Jyväskylän Teekkariyhdistyksen säännöt">
+		<Layout title="Säännöt - Jyväskylän Teekkariyhdistys" description="Jyväskylän Teekkariyhdistyksen säännöt">
 			<div className="container-wide" style={{display:"flex",gap:"40px",alignItems:"flex-start",flexWrap:"wrap"}}>
 				<nav className={styles["rules-toc"]} aria-label="Sääntöjen sisällysluettelo">
 					<h3>Sisällys</h3>
