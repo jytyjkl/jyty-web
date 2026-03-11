@@ -123,8 +123,8 @@ export default function Hallitus() {
 					<section
 						className={styles.contactSection + " container-readable"}
 					>
-						<h2>Yhteys</h2>
-						<p>Voit olla yhteydessä hallitukseen matalalla kynnyksellä:</p>
+						<h2>Ota yhteyttä</h2>
+						<p>Voit olla yhteydessä hallitukseen matalalla kynnyksellä.</p>
 						<p className={styles.joinHint}>
 							Liittyminen tai jäsenyyskysymykset: ota yhteyttä sihteeriin{" "}
 							<a
