@@ -76,49 +76,49 @@
           "name": "Juho Järvi",
           "title": "Puheenjohtaja",
           "image": "hallitus/juho.jpg",
-          "email": "",
+          "email": "pj@jytyjkl.fi",
           "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
         },
         {
           "name": "Eemil Hukkanen",
           "title": "Varapuheenjohtaja",
           "image": "hallitus/eemil.jpg",
-          "email": "",
+          "email": "pj@jytyjkl.fi",
           "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
         },
         {
           "name": "Ilmo Kurki",
           "title": "Sihteeri",
           "image": "hallitus/ilmo.jpg",
-          "email": "",
+          "email": "ilmo.kurki@jytyjkl.fi",
           "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
         },
         {
           "name": "Nuutti Rantanen",
           "title": "Rahastonhoitaja",
           "image": "hallitus/nuutti.jpg",
-          "email": "",
+          "email": "nuutti.rantanen@jytyjkl.fi",
           "description": "Talouden seuranta, budjetointi ja maksuliikenne."
         },
         {
           "name": "Olli Terävä",
           "title": "Projektimestari",
           "image": "logo.png",
-          "email": "",
+          "email": "olli.terava@jytyjkl.fi",
           "description": "Projektien koordinointi ja toteutus."
         },
         {
           "name": "Juho Kallijärvi",
           "title": "Webmastari",
           "image": "logo.png",
-          "email": "",
+          "email": "juho.kallijarvi@jytyjkl.fi",
           "description": "Verkkosivut ja digitaaliset palvelut."
         },
         {
           "name": "Petrus Lipsanen",
           "title": "Hallituksen jäsen",
           "image": "logo.png",
-          "email": "",
+          "email": "petrus.lipsanen@jytyjkl.fi",
           "description": "Hallitustyö ja toiminnan tukeminen."
         }
       ]
