@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "dotnet": "^1.1.4",
     "next": "^16.1.6",
