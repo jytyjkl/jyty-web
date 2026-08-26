@@ -1,6 +1,41 @@
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import styles from "../styles/layout.module.css";
 import { getDictionary } from "../lib/i18n";
+
+const HINT_DURATION_MS = 2500;
+
+function DisabledLanguageOption({ label, hint }) {
+  const [showHint, setShowHint] = useState(false);
+  const timeoutRef = useRef(null);
+
+  useEffect(() => () => clearTimeout(timeoutRef.current), []);
+
+  function handleClick() {
+    setShowHint(true);
+    clearTimeout(timeoutRef.current);
+    timeoutRef.current = setTimeout(() => setShowHint(false), HINT_DURATION_MS);
+  }
+
+  return (
+    <span className={styles.languageOptionWrapper}>
+      <button
+        type="button"
+        title={hint}
+        aria-disabled="true"
+        onClick={handleClick}
+        className={`${styles.languageLink} ${styles.languageLinkDisabled} ${styles.languageLinkButton}`}
+      >
+        {label}
+      </button>
+      {showHint && (
+        <span role="status" className={styles.languageHint}>
+          {hint}
+        </span>
+      )}
+    </span>
+  );
+}
 
 function LanguageOption({ label, isActive, href, disabledTitle }) {
   if (isActive) {
@@ -11,15 +46,7 @@ function LanguageOption({ label, isActive, href, disabledTitle }) {
     );
   }
   if (!href) {
-    return (
-      <span
-        className={`${styles.languageLink} ${styles.languageLinkDisabled}`}
-        aria-disabled="true"
-        title={disabledTitle}
-      >
-        {label}
-      </span>
-    );
+    return <DisabledLanguageOption label={label} hint={disabledTitle} />;
   }
   return (
     <Link href={href} className={styles.languageLink}>
