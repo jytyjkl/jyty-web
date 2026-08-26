@@ -1,146 +1,299 @@
 [
   {
     "id": "1",
-    "title": "1§ Yhdistyksen nimi ja kotipaikka",
-    "content": "Yhdistyksen nimi on Jyväskylän teekkariyhdistys ry ja sen kotipaikka on Jyväskylä."
+    "title": { "fi": "1§ Yhdistyksen nimi ja kotipaikka", "en": "Section 1 – Name and domicile of the association" },
+    "content": {
+      "fi": "Yhdistyksen nimi on Jyväskylän teekkariyhdistys ry ja sen kotipaikka on Jyväskylä.",
+      "en": "The name of the association is Jyväskylän teekkariyhdistys ry and its home municipality is Jyväskylä."
+    }
   },
   {
     "id": "2",
-    "title": "2§ Yhdistyksen kieli",
-    "content": "Yhdistyksen virallinen kieli on suomi."
+    "title": { "fi": "2§ Yhdistyksen kieli", "en": "Section 2 – Language of the association" },
+    "content": {
+      "fi": "Yhdistyksen virallinen kieli on suomi.",
+      "en": "The official language of the association is Finnish."
+    }
   },
   {
     "id": "3",
-    "title": "3§ Yhdistyksen tarkoitus",
-    "content": "Yhdistys toimii Jyväskylän yliopiston teknistieteellisten opiskelijoiden yhdyssiteenä. Yhdistyksen tarkoituksena on edistää jäsenjärjestöjen ja henkilöjäsenten yhteiskunnallisia, ammatillisia, sosiaalisia ja henkisiä sekä opintoihin ja opiskeluun liittyviä pyrkimyksiä sekä vaalia ja kehittää jyväskyläläistä teekkariperinteitä ja -kulttuuria."
+    "title": { "fi": "3§ Yhdistyksen tarkoitus", "en": "Section 3 – Purpose of the association" },
+    "content": {
+      "fi": "Yhdistys toimii Jyväskylän yliopiston teknistieteellisten opiskelijoiden yhdyssiteenä. Yhdistyksen tarkoituksena on edistää jäsenjärjestöjen ja henkilöjäsenten yhteiskunnallisia, ammatillisia, sosiaalisia ja henkisiä sekä opintoihin ja opiskeluun liittyviä pyrkimyksiä sekä vaalia ja kehittää jyväskyläläistä teekkariperinteitä ja -kulttuuria.",
+      "en": "The association acts as a connecting link between students of technical sciences at the University of Jyväskylä. The purpose of the association is to promote the societal, professional, social and intellectual aspirations of its member organisations and personal members, as well as those related to their studies, and to cherish and develop Jyväskylä's teekkari traditions and culture."
+    }
   },
   {
     "id": "4",
-    "title": "4§ Tarkoituksen toteuttaminen",
-    "content": "Tarkoituksen toteuttamiseksi yhdistys:",
+    "title": { "fi": "4§ Tarkoituksen toteuttaminen", "en": "Section 4 – Fulfilling the purpose" },
+    "content": {
+      "fi": "Tarkoituksen toteuttamiseksi yhdistys:",
+      "en": "To fulfil its purpose, the association:"
+    },
     "items": [
-      "tukee jäsenjärjestöjen ja henkilöjäsenten toimintaa, joka edistää opiskelua, opintojen edellytyksiä tai tulevaa uraa",
-      "toimii edunvalvojana yhdessä jäsenjärjestöjen kanssa koulutus- ja sosiaalipoliittisissa asioissa",
-      "kohottaa teknillistieteellisen koulutusalan ja sitä opiskelevien arvostusta ja tuntemusta yhteiskunnassamme",
-      "edistää jäsenjärjestöjen keskinäistä yhteistyötä sekä yhteistyötä muiden toimijoiden välillä",
-      "toimii tiedonvälittäjänä ja lisää keskustelua yliopistoa, ylioppilaskuntaa ja työelämää koskevissa asioissa",
-      "harjoittaa tiedotus-, koulutus- ja julkaisutoimintaa suomeksi ja englanniksi",
-      "sekä voi tarvittaessa ryhtyä muihinkin tarkoitusta edistäviin toimiin"
+      {
+        "fi": "tukee jäsenjärjestöjen ja henkilöjäsenten toimintaa, joka edistää opiskelua, opintojen edellytyksiä tai tulevaa uraa",
+        "en": "supports the activities of member organisations and personal members that promote studying, the conditions for studying, or future careers"
+      },
+      {
+        "fi": "toimii edunvalvojana yhdessä jäsenjärjestöjen kanssa koulutus- ja sosiaalipoliittisissa asioissa",
+        "en": "acts as an advocate together with member organisations in education and social policy matters"
+      },
+      {
+        "fi": "kohottaa teknillistieteellisen koulutusalan ja sitä opiskelevien arvostusta ja tuntemusta yhteiskunnassamme",
+        "en": "raises the appreciation and awareness of the technical sciences field and its students in our society"
+      },
+      {
+        "fi": "edistää jäsenjärjestöjen keskinäistä yhteistyötä sekä yhteistyötä muiden toimijoiden välillä",
+        "en": "promotes cooperation between member organisations as well as cooperation with other actors"
+      },
+      {
+        "fi": "toimii tiedonvälittäjänä ja lisää keskustelua yliopistoa, ylioppilaskuntaa ja työelämää koskevissa asioissa",
+        "en": "acts as a conduit of information and increases discussion on matters concerning the university, the student union and working life"
+      },
+      {
+        "fi": "harjoittaa tiedotus-, koulutus- ja julkaisutoimintaa suomeksi ja englanniksi",
+        "en": "carries out information, education and publishing activities in Finnish and English"
+      },
+      {
+        "fi": "sekä voi tarvittaessa ryhtyä muihinkin tarkoitusta edistäviin toimiin",
+        "en": "and may, if necessary, undertake other actions that further its purpose"
+      }
     ]
   },
   {
     "id": "5",
-    "title": "5§ Toiminnan tukeminen",
-    "content": "Toimintansa tukemiseksi yhdistys voi ottaa vastaan avustuksia, lahjoituksia ja testamentteja, järjestää huvitilaisuuksia ja arpajaisia asianomaisilla luvilla, harjoittaa alaan liittyvää julkaisutoimintaa, tehdä talkootöitä. Yhdistys voi omistaa toiminnan kannalta tarpeellista kiinteää ja irtainta omaisuutta sekä osakkeita. Yhdistys voi harjoittaa yhdistyslain 5 §:n mukaista taloudellista toimintaa tarkoituksensa toteuttamiseksi, mutta ei hanki taloudellista etua tai ansiota toimintaansa osallistuville jäsenille."
+    "title": { "fi": "5§ Toiminnan tukeminen", "en": "Section 5 – Supporting the association's activities" },
+    "content": {
+      "fi": "Toimintansa tukemiseksi yhdistys voi ottaa vastaan avustuksia, lahjoituksia ja testamentteja, järjestää huvitilaisuuksia ja arpajaisia asianomaisilla luvilla, harjoittaa alaan liittyvää julkaisutoimintaa, tehdä talkootöitä. Yhdistys voi omistaa toiminnan kannalta tarpeellista kiinteää ja irtainta omaisuutta sekä osakkeita. Yhdistys voi harjoittaa yhdistyslain 5 §:n mukaista taloudellista toimintaa tarkoituksensa toteuttamiseksi, mutta ei hanki taloudellista etua tai ansiota toimintaansa osallistuville jäsenille.",
+      "en": "To support its activities, the association may accept grants, donations and bequests, organise entertainment events and raffles with the appropriate permits, carry out publishing activities related to its field, and carry out voluntary work. The association may own real and movable property, as well as shares, that are necessary for its activities. The association may engage in economic activity under Section 5 of the Finnish Associations Act to fulfil its purpose, but does not seek financial benefit or profit for the members participating in its activities."
+    }
   },
   {
     "id": "6",
-    "title": "6§ Jäsenyys",
+    "title": { "fi": "6§ Jäsenyys", "en": "Section 6 – Membership" },
     "paragraphs": [
-      "Yhdistyksen jäseniksi voivat liittyä jäsenjärjestöt ja henkilöjäsenet, jotka voivat olla joko varsinaisia jäseniä tai kannatusjäseniä.",
-      "Yhdistyksen varsinaisiksi jäseniksi voidaan hyväksyä Jyväskylän yliopiston teknistieteellisissä koulutusohjelmissa toimivat ainutkertaiset sisäänotolliset opiskelijoiden killat, kaikkien teknillisten koulutusohjelmien vaihto-opiskelijoiden edunvalvontajärjestöt sekä teknistieteellisten koulutusohjelmien opiskelijat henkilöjäseninä. Hallituksen kokous hyväksyy varsinaiset jäsenet yksinkertaisella äänten enemmistöllä. Jäsenhakemuksen voi jättää kirjallisesti hallitukselle.",
-      "Yhdistyksen kannatusjäseneksi voidaan hyväksyä muita yhdistyksen toiminnasta kiinnostuneita yhteisöjä ja yksityishenkilöitä, jotka haluavat tukea yhdistyksen tarkoitusta ja toimintaa. Yhdistyksen hallitus hyväksyy kannatusjäsenet kirjallisten hakemusten perusteella.",
-      "Henkilöjäsenten jäsenmaksu maksetaan kahdeksan (8) vuoden välein. Jäsenen tulee erota tai hänet voidaan hallituksen päätöksellä erottaa, kun hänen opintonsa Jyväskylän yliopistossa päättyvät. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsen voidaan erottaa yhdistyksen jäsenyydestä, jos jäsen on laiminlyönyt jäsenmaksun maksamisen, jos jäsen ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsen on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenen erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenellä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan.",
-      "Jäsenjärjestön jäsenmaksu maksetaan yhden (1) vuoden välein. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsenjärjestön tulee erota tai jäsenjärjestö voidaan erottaa yhdistyksen jäsenyydestä, jos jäsenjärjestö on laiminlyönyt jäsenmaksun maksamisen, jos jäsenjärjestö ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsenjärjestö on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenjärjestön erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenjärjestöllä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan."
+      {
+        "fi": "Yhdistyksen jäseniksi voivat liittyä jäsenjärjestöt ja henkilöjäsenet, jotka voivat olla joko varsinaisia jäseniä tai kannatusjäseniä.",
+        "en": "Member organisations and personal members may join the association, and may be either full members or supporting members."
+      },
+      {
+        "fi": "Yhdistyksen varsinaisiksi jäseniksi voidaan hyväksyä Jyväskylän yliopiston teknistieteellisissä koulutusohjelmissa toimivat ainutkertaiset sisäänotolliset opiskelijoiden killat, kaikkien teknillisten koulutusohjelmien vaihto-opiskelijoiden edunvalvontajärjestöt sekä teknistieteellisten koulutusohjelmien opiskelijat henkilöjäseninä. Hallituksen kokous hyväksyy varsinaiset jäsenet yksinkertaisella äänten enemmistöllä. Jäsenhakemuksen voi jättää kirjallisesti hallitukselle.",
+        "en": "Full members may be accepted from among the unique intake-based student guilds operating within the technical sciences degree programmes of the University of Jyväskylä, the advocacy organisations for exchange students of all technical degree programmes, and students of technical sciences degree programmes as personal members. A board meeting accepts full members by a simple majority vote. A membership application may be submitted to the board in writing."
+      },
+      {
+        "fi": "Yhdistyksen kannatusjäseneksi voidaan hyväksyä muita yhdistyksen toiminnasta kiinnostuneita yhteisöjä ja yksityishenkilöitä, jotka haluavat tukea yhdistyksen tarkoitusta ja toimintaa. Yhdistyksen hallitus hyväksyy kannatusjäsenet kirjallisten hakemusten perusteella.",
+        "en": "Other communities and private individuals interested in the association's activities, who wish to support the association's purpose and activities, may be accepted as supporting members. The board of the association accepts supporting members on the basis of written applications."
+      },
+      {
+        "fi": "Henkilöjäsenten jäsenmaksu maksetaan kahdeksan (8) vuoden välein. Jäsenen tulee erota tai hänet voidaan hallituksen päätöksellä erottaa, kun hänen opintonsa Jyväskylän yliopistossa päättyvät. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsen voidaan erottaa yhdistyksen jäsenyydestä, jos jäsen on laiminlyönyt jäsenmaksun maksamisen, jos jäsen ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsen on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenen erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenellä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan.",
+        "en": "The membership fee for personal members is paid every eight (8) years. A member must resign, or may be expelled by a board decision, when their studies at the University of Jyväskylä end. A member may be considered to have resigned if they have not paid their membership fee within 1 month of the start of a new membership fee period. A member may be expelled from the association's membership if the member has neglected to pay the membership fee, if the member is no longer eligible for membership based on the membership criteria, or if the member's actions have caused significant harm to the association or its reputation. The expulsion of a member is decided by a majority vote of the association's board. A member has the right to resign from the association by notifying the board or its chair in writing, or by announcing the resignation at an association meeting to be recorded in the minutes."
+      },
+      {
+        "fi": "Jäsenjärjestön jäsenmaksu maksetaan yhden (1) vuoden välein. Jäsen voidaan katsoa eronneeksi, mikäli hän ei ole maksanut jäsenmaksuaan 1 kuukauden kuluessa uuden jäsenmaksukauden alkamisen jälkeen. Jäsenjärjestön tulee erota tai jäsenjärjestö voidaan erottaa yhdistyksen jäsenyydestä, jos jäsenjärjestö on laiminlyönyt jäsenmaksun maksamisen, jos jäsenjärjestö ei ole enää jäsenyyskriteerien perusteella jäsenkelpoinen tai jos jäsenjärjestö on toiminnallaan aiheuttanut merkittävää haittaa yhdistykselle tai sen maineelle. Jäsenjärjestön erottamisesta päättää yhdistyksen hallitus enemmistö äänillä. Jäsenjärjestöllä on oikeus erota yhdistyksestä ilmoittamalla siitä kirjallisesti hallitukselle tai sen puheenjohtajalle tai ilmoittamalla erosta yhdistyksen kokouksessa merkittäväksi pöytäkirjaan.",
+        "en": "The membership fee for a member organisation is paid every one (1) year. A member may be considered to have resigned if it has not paid its membership fee within 1 month of the start of a new membership fee period. A member organisation must resign, or may be expelled from the association's membership, if the member organisation has neglected to pay the membership fee, if it is no longer eligible for membership based on the membership criteria, or if its actions have caused significant harm to the association or its reputation. The expulsion of a member organisation is decided by a majority vote of the association's board. A member organisation has the right to resign from the association by notifying the board or its chair in writing, or by announcing the resignation at an association meeting to be recorded in the minutes."
+      }
     ]
   },
   {
     "id": "7",
-    "title": "7§ Varsinaiset kokoukset",
+    "title": { "fi": "7§ Varsinaiset kokoukset", "en": "Section 7 – Regular meetings" },
     "paragraphs": [
-      "Yhdistys pitää vuosittain kaksi varsinaista kokousta. Yhdistyksen kevätkokous pidetään tammi-toukokuussa ja syyskokous syys-joulukuussa hallituksen määräämänä päivänä.",
-      "Hallituksen on kutsuttava yhdistyksen kokoukset koolle vähintään seitsemän vuorokautta ennen kokousta sähköpostitse jäsenen ilmoittamaan osoitteeseen sekä jäsenille tarkoitetulla some-kanavalla."
+      {
+        "fi": "Yhdistys pitää vuosittain kaksi varsinaista kokousta. Yhdistyksen kevätkokous pidetään tammi-toukokuussa ja syyskokous syys-joulukuussa hallituksen määräämänä päivänä.",
+        "en": "The association holds two regular meetings each year. The association's spring meeting is held between January and May, and the autumn meeting between September and December, on a date determined by the board."
+      },
+      {
+        "fi": "Hallituksen on kutsuttava yhdistyksen kokoukset koolle vähintään seitsemän vuorokautta ennen kokousta sähköpostitse jäsenen ilmoittamaan osoitteeseen sekä jäsenille tarkoitetulla some-kanavalla.",
+        "en": "The board must convene the association's meetings at least seven days before the meeting by email to the address notified by the member, and via a social media channel intended for members."
+      }
     ],
     "subsections": [
       {
-        "heading": "Yhdistyksen kevätkokouksessa päätetään seuraavat asiat:",
+        "heading": {
+          "fi": "Yhdistyksen kevätkokouksessa päätetään seuraavat asiat:",
+          "en": "The following matters are decided at the association's spring meeting:"
+        },
         "items": [
-          "esitetään tilinpäätös, toimintakertomus ja toiminnantarkastajan lausunto",
-          "päätetään tilinpäätöksen vahvistamisesta ja vastuuvapauden myöntämisestä hallitukselle ja muille tili- ja vastuuvelvollisille"
+          {
+            "fi": "esitetään tilinpäätös, toimintakertomus ja toiminnantarkastajan lausunto",
+            "en": "the financial statements, annual report and the operational auditor's statement are presented"
+          },
+          {
+            "fi": "päätetään tilinpäätöksen vahvistamisesta ja vastuuvapauden myöntämisestä hallitukselle ja muille tili- ja vastuuvelvollisille",
+            "en": "the adoption of the financial statements is decided, and discharge from liability is granted to the board and other accountable parties"
+          }
         ]
       },
       {
-        "heading": "Yhdistyksen syyskokouksessa päätetään seuraavat asiat:",
+        "heading": {
+          "fi": "Yhdistyksen syyskokouksessa päätetään seuraavat asiat:",
+          "en": "The following matters are decided at the association's autumn meeting:"
+        },
         "items": [
-          "vahvistetaan toimintasuunnitelma sekä talousarvio",
-          "vahvistetaan ohjesäännöt ja muut tarvittavat säännökset seuraavalle vuodelle",
-          "valitaan hallituksen puheenjohtaja",
-          "valitaan hallituksen muut jäsenet",
-          "valitaan yksi tai kaksi toiminnantarkastajaa ja heille yksi tai kaksi varatoiminnantarkastajaa",
-          "päätetään varsinaisilta jäseniltä ja kannattavilta jäseniltä perittävän liittymis- ja jäsenmaksun suuruus"
+          {
+            "fi": "vahvistetaan toimintasuunnitelma sekä talousarvio",
+            "en": "the action plan and budget are adopted"
+          },
+          {
+            "fi": "vahvistetaan ohjesäännöt ja muut tarvittavat säännökset seuraavalle vuodelle",
+            "en": "the by-laws and other necessary regulations for the following year are adopted"
+          },
+          {
+            "fi": "valitaan hallituksen puheenjohtaja",
+            "en": "the chair of the board is elected"
+          },
+          {
+            "fi": "valitaan hallituksen muut jäsenet",
+            "en": "the other members of the board are elected"
+          },
+          {
+            "fi": "valitaan yksi tai kaksi toiminnantarkastajaa ja heille yksi tai kaksi varatoiminnantarkastajaa",
+            "en": "one or two operational auditors and one or two deputy operational auditors for them are elected"
+          },
+          {
+            "fi": "päätetään varsinaisilta jäseniltä ja kannattavilta jäseniltä perittävän liittymis- ja jäsenmaksun suuruus",
+            "en": "the amount of the joining and membership fees charged to full members and supporting members is decided"
+          }
         ]
       }
     ],
     "footerParagraphs": [
-      "Mikäli yhdistyksen jäsen haluaa saada jonkin asian yhdistyksen kevät- tai syyskokouksen käsiteltäväksi, on hänen ilmoitettava siitä kirjallisesti hallitukselle niin hyvissä ajoin, että asia voidaan sisällyttää kokouskutsuun.",
-      "Henkilöjäsenellä on yksi (1) ääni yhdistyksen kokouksissa ja Jäsenjärjestöllä on yksi (1) ääni jokaista alkavaa viittäkymmentä (50) jäsentä kohden."
+      {
+        "fi": "Mikäli yhdistyksen jäsen haluaa saada jonkin asian yhdistyksen kevät- tai syyskokouksen käsiteltäväksi, on hänen ilmoitettava siitä kirjallisesti hallitukselle niin hyvissä ajoin, että asia voidaan sisällyttää kokouskutsuun.",
+        "en": "If a member of the association wishes to have a matter dealt with at the association's spring or autumn meeting, they must notify the board in writing early enough that the matter can be included in the meeting notice."
+      },
+      {
+        "fi": "Henkilöjäsenellä on yksi (1) ääni yhdistyksen kokouksissa ja Jäsenjärjestöllä on yksi (1) ääni jokaista alkavaa viittäkymmentä (50) jäsentä kohden.",
+        "en": "A personal member has one (1) vote at the association's meetings, and a member organisation has one (1) vote for every commenced fifty (50) members."
+      }
     ]
   },
   {
     "id": "8",
-    "title": "8§ Yhdistyksen hallitus",
+    "title": { "fi": "8§ Yhdistyksen hallitus", "en": "Section 8 – The association's board" },
     "paragraphs": [
-      "Yhdistyksen asioita hoitaa yhdistyksen syyskokouksessa valittu hallitus, jonka toimikausi on kalenterivuosi. Yhdistyksen hallitukseen kuuluu syyskokouksessa valitut puheenjohtaja ja 2-12 muuta varsinaista jäsentä. Hallituksen jäsenen tulee olla valintahetkellä yhdistyksen jäsenjärjestön varsinainen jäsen tai yhdistyksen henkilöjäsen. Hallitus voi ottaa keskuudestaan tai ulkopuoleltaan yhdistykselle tarpeellisia toimihenkilöitä.",
-      "Hallitus kokoontuu puheenjohtajan tai varapuheenjohtajan kutsusta, kun he katsovat siihen olevan aihetta, tai kun vähintään kolme (3) hallituksen jäsentä sitä vaatii. Hallituksen kokoukset ovat päätösvaltaisia, jos kokouksesta on ilmoitettu hallituksen jäsenille vähintään 3 päivää ennen kokousta, ja kokouksessa ovat läsnä puheenjohtaja tai varapuheenjohtaja sekä vähintään puolet (1/2) hallituksen jäsenistä."
+      {
+        "fi": "Yhdistyksen asioita hoitaa yhdistyksen syyskokouksessa valittu hallitus, jonka toimikausi on kalenterivuosi. Yhdistyksen hallitukseen kuuluu syyskokouksessa valitut puheenjohtaja ja 2-12 muuta varsinaista jäsentä. Hallituksen jäsenen tulee olla valintahetkellä yhdistyksen jäsenjärjestön varsinainen jäsen tai yhdistyksen henkilöjäsen. Hallitus voi ottaa keskuudestaan tai ulkopuoleltaan yhdistykselle tarpeellisia toimihenkilöitä.",
+        "en": "The association's affairs are managed by a board elected at the association's autumn meeting, whose term of office is one calendar year. The association's board consists of a chair elected at the autumn meeting and 2–12 other full members. At the time of election, a board member must be a full member of a member organisation of the association or a personal member of the association. The board may appoint officers necessary for the association from among its own members or from outside the board."
+      },
+      {
+        "fi": "Hallitus kokoontuu puheenjohtajan tai varapuheenjohtajan kutsusta, kun he katsovat siihen olevan aihetta, tai kun vähintään kolme (3) hallituksen jäsentä sitä vaatii. Hallituksen kokoukset ovat päätösvaltaisia, jos kokouksesta on ilmoitettu hallituksen jäsenille vähintään 3 päivää ennen kokousta, ja kokouksessa ovat läsnä puheenjohtaja tai varapuheenjohtaja sekä vähintään puolet (1/2) hallituksen jäsenistä.",
+        "en": "The board meets at the invitation of the chair or vice chair, when they deem it necessary, or when at least three (3) board members demand it. Board meetings have a quorum if the meeting has been announced to board members at least 3 days before the meeting, and the chair or vice chair together with at least half (1/2) of the board members are present at the meeting."
+      }
     ]
   },
   {
     "id": "9",
-    "title": "9§ Hallituksen tehtävät",
+    "title": { "fi": "9§ Hallituksen tehtävät", "en": "Section 9 – Duties of the board" },
     "subsections": [
       {
-        "heading": "Hallituksen tehtävä on:",
+        "heading": { "fi": "Hallituksen tehtävä on:", "en": "The duties of the board are to:" },
         "items": [
-          "johtaa yhdistyksen toimintaa yhdistyksen sääntöjen ja päätösten mukaan sekä edustaa yhdistystä",
-          "huolehtia yhdistyksen taloudesta ja hallinnosta",
-          "valmistella yhdistyksen kokouksissa käsiteltävät asiat",
-          "laatia yhdistyksen toimintasuunnitelma ja -kertomus sekä talousarvio ja tilinpäätös",
-          "valita tarvittavat toimihenkilöt ja työryhmät ja valvoa niiden toimintaa",
-          "vastata lakinkäyttölupien myöntämisestä",
-          "vastata teekkarilakkiohjesäännöstä huomioiden jäsenten yhdenvertaisen ja tasapuolisen kohtelun",
-          "ylläpitää teekkarilakkitilauksia",
-          "tiedottaa jäsenjärjestöille ja henkilöjäsenille hallituksen päätöksiä"
+          {
+            "fi": "johtaa yhdistyksen toimintaa yhdistyksen sääntöjen ja päätösten mukaan sekä edustaa yhdistystä",
+            "en": "lead the association's activities in accordance with the association's rules and decisions, and represent the association"
+          },
+          {
+            "fi": "huolehtia yhdistyksen taloudesta ja hallinnosta",
+            "en": "take care of the association's finances and administration"
+          },
+          {
+            "fi": "valmistella yhdistyksen kokouksissa käsiteltävät asiat",
+            "en": "prepare the matters to be dealt with at the association's meetings"
+          },
+          {
+            "fi": "laatia yhdistyksen toimintasuunnitelma ja -kertomus sekä talousarvio ja tilinpäätös",
+            "en": "draw up the association's action plan and annual report, as well as its budget and financial statements"
+          },
+          {
+            "fi": "valita tarvittavat toimihenkilöt ja työryhmät ja valvoa niiden toimintaa",
+            "en": "appoint the necessary officers and working groups and supervise their activities"
+          },
+          {
+            "fi": "vastata lakinkäyttölupien myöntämisestä",
+            "en": "be responsible for granting cap-wearing permits"
+          },
+          {
+            "fi": "vastata teekkarilakkiohjesäännöstä huomioiden jäsenten yhdenvertaisen ja tasapuolisen kohtelun",
+            "en": "be responsible for the teekkari cap regulations, taking into account the equal and fair treatment of members"
+          },
+          {
+            "fi": "ylläpitää teekkarilakkitilauksia",
+            "en": "maintain teekkari cap orders"
+          },
+          {
+            "fi": "tiedottaa jäsenjärjestöille ja henkilöjäsenille hallituksen päätöksiä",
+            "en": "inform member organisations and personal members of the board's decisions"
+          }
         ]
       }
     ]
   },
   {
     "id": "10",
-    "title": "10§ Päätöksentekojärjestys ja vaalit",
-    "content": "Äänestyksissä käytetään avointa äänestystä, ellei yhdistyksen kokouksessa vähintään viisi (5) äänivaltaista edustajaa tai hallituksen kokouksissa vähintään kaksi (2) hallituksen jäsentä vaadi suljettua äänestystä. Jos käsiteltävästä asiasta on annettu useita päätösehdotuksia, noudatetaan kokouksen puheenjohtajan päättämää soveltuvaa äänestysjärjestystä. Kokouksen puheenjohtaja antaa äänestystä täsmentävät ohjeet ennen äänestyksen suorittamista. Yhdistyksen kokouksissa ja hallituksen kokouksissa äänestykset ratkaistaan yksinkertaisella äänten enemmistöllä. Äänestyksen mennessä tasan ratkaisee puheenjohtajan kanta, mutta henkilövaaleissa kuitenkin arpa. Mikäli ensimmäisellä kierroksella kukaan ei ole saanut ehdotonta äänten enemmistöä, suoritetaan uusi vaali kahden (2) ensimmäisessä äänestyksessä eniten ääniä saaneen ehdokkaan välillä. Jos on valittavana useita henkilöitä, toimitetaan vaali siirtoääniperiaatteella toimitettavana listavaalina."
+    "title": { "fi": "10§ Päätöksentekojärjestys ja vaalit", "en": "Section 10 – Decision-making procedure and elections" },
+    "content": {
+      "fi": "Äänestyksissä käytetään avointa äänestystä, ellei yhdistyksen kokouksessa vähintään viisi (5) äänivaltaista edustajaa tai hallituksen kokouksissa vähintään kaksi (2) hallituksen jäsentä vaadi suljettua äänestystä. Jos käsiteltävästä asiasta on annettu useita päätösehdotuksia, noudatetaan kokouksen puheenjohtajan päättämää soveltuvaa äänestysjärjestystä. Kokouksen puheenjohtaja antaa äänestystä täsmentävät ohjeet ennen äänestyksen suorittamista. Yhdistyksen kokouksissa ja hallituksen kokouksissa äänestykset ratkaistaan yksinkertaisella äänten enemmistöllä. Äänestyksen mennessä tasan ratkaisee puheenjohtajan kanta, mutta henkilövaaleissa kuitenkin arpa. Mikäli ensimmäisellä kierroksella kukaan ei ole saanut ehdotonta äänten enemmistöä, suoritetaan uusi vaali kahden (2) ensimmäisessä äänestyksessä eniten ääniä saaneen ehdokkaan välillä. Jos on valittavana useita henkilöitä, toimitetaan vaali siirtoääniperiaatteella toimitettavana listavaalina.",
+      "en": "Open voting is used unless at least five (5) voting representatives at an association meeting, or at least two (2) board members at a board meeting, demand a closed vote. If several motions have been made on the matter being handled, the applicable voting order determined by the chair of the meeting is followed. The chair of the meeting gives instructions clarifying the vote before it is carried out. Votes at association meetings and board meetings are decided by a simple majority. In the event of a tie, the chair's position is decisive, except in personal elections, which are decided by drawing lots. If no one receives an absolute majority of votes in the first round, a new vote is held between the two (2) candidates who received the most votes in the first vote. If several people are to be elected, the election is carried out as a list election using the transferable vote principle."
+    }
   },
   {
     "id": "11",
-    "title": "11§ Yhdistyksen nimen kirjoittaminen",
-    "content": "Yhdistyksen nimen kirjoittaa yhdistyksen hallituksen puheenjohtaja yksin tai varapuheenjohtaja yksin. Oikeus yhdistyksen nimen kirjoittamiseen on lisäksi henkilöllä, jolla on siihen hallituksen erikseen antama henkilökohtainen oikeus."
+    "title": { "fi": "11§ Yhdistyksen nimen kirjoittaminen", "en": "Section 11 – Signing for the association" },
+    "content": {
+      "fi": "Yhdistyksen nimen kirjoittaa yhdistyksen hallituksen puheenjohtaja yksin tai varapuheenjohtaja yksin. Oikeus yhdistyksen nimen kirjoittamiseen on lisäksi henkilöllä, jolla on siihen hallituksen erikseen antama henkilökohtainen oikeus.",
+      "en": "The association's name is signed by the chair of the association's board alone or the vice chair alone. The right to sign for the association is also held by a person who has been separately granted personal authorisation to do so by the board."
+    }
   },
   {
     "id": "12",
-    "title": "12§ Tilikausi ja toiminnantarkastajat",
+    "title": { "fi": "12§ Tilikausi ja toiminnantarkastajat", "en": "Section 12 – Financial period and operational auditors" },
     "paragraphs": [
-      "Yhdistyksen tilikausi on kalenterivuosi.",
-      "Yhdistyksen hallintoa ja taloutta valvoo yksi tai kaksi (1-2) toiminnantarkastajaa. Toiminnantarkastajien toimikausi on kalenterivuosi. Toiminnantarkastajilla on läsnäolo- ja puheoikeus yhdistyksen ja hallituksen kokouksissa, jossa käsitellään heidän tehtäviinsä liittyviä asioita. Toiminnantarkastajilla on oikeus halutessaan tutustua yhdistyksen talouteen ja hallintoon.",
-      "Tilinpäätös sekä yhdistyksen kirjanpito- ja hallintoasiakirjat on annettava toiminnantarkastajille vähintään neljä (4) viikkoa ennen yhdistyksen kevätkokousta. Toiminnantarkastajien tulee antaa kirjallinen lausuntonsa viimeistään kahta (2) viikkoa ennen kokousta."
+      {
+        "fi": "Yhdistyksen tilikausi on kalenterivuosi.",
+        "en": "The association's financial period is the calendar year."
+      },
+      {
+        "fi": "Yhdistyksen hallintoa ja taloutta valvoo yksi tai kaksi (1-2) toiminnantarkastajaa. Toiminnantarkastajien toimikausi on kalenterivuosi. Toiminnantarkastajilla on läsnäolo- ja puheoikeus yhdistyksen ja hallituksen kokouksissa, jossa käsitellään heidän tehtäviinsä liittyviä asioita. Toiminnantarkastajilla on oikeus halutessaan tutustua yhdistyksen talouteen ja hallintoon.",
+        "en": "The association's administration and finances are overseen by one or two (1–2) operational auditors. The term of office of the operational auditors is the calendar year. The operational auditors have the right to attend and speak at association and board meetings where matters related to their duties are discussed. The operational auditors have the right, if they wish, to examine the association's finances and administration."
+      },
+      {
+        "fi": "Tilinpäätös sekä yhdistyksen kirjanpito- ja hallintoasiakirjat on annettava toiminnantarkastajille vähintään neljä (4) viikkoa ennen yhdistyksen kevätkokousta. Toiminnantarkastajien tulee antaa kirjallinen lausuntonsa viimeistään kahta (2) viikkoa ennen kokousta.",
+        "en": "The financial statements and the association's accounting and administrative documents must be given to the operational auditors at least four (4) weeks before the association's spring meeting. The operational auditors must give their written statement at the latest two (2) weeks before the meeting."
+      }
     ]
   },
   {
     "id": "13",
-    "title": "13§ Sääntöjen muuttaminen",
-    "content": "Päätös sääntöjen muuttamisesta on tehtävä yhdistyksen kokouksessa. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä."
+    "title": { "fi": "13§ Sääntöjen muuttaminen", "en": "Section 13 – Amending the rules" },
+    "content": {
+      "fi": "Päätös sääntöjen muuttamisesta on tehtävä yhdistyksen kokouksessa. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä.",
+      "en": "A decision to amend the rules must be made at an association meeting. The proposal must be supported by at least three-quarters (3/4) of the votes cast."
+    }
   },
   {
     "id": "14",
-    "title": "14§ Yhdistyksen purkaminen",
-    "content": "Päätös yhdistyksen purkamisesta on tehtävä kahdessa peräkkäisessä yhdistyksen kokouksessa, jotka on pidettävä vähintään kahden viikon välein. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä."
+    "title": { "fi": "14§ Yhdistyksen purkaminen", "en": "Section 14 – Dissolution of the association" },
+    "content": {
+      "fi": "Päätös yhdistyksen purkamisesta on tehtävä kahdessa peräkkäisessä yhdistyksen kokouksessa, jotka on pidettävä vähintään kahden viikon välein. Esitystä on puollettava vähintään kolme neljäsosaa (3/4) annetuista äänistä.",
+      "en": "A decision to dissolve the association must be made at two consecutive association meetings, which must be held at least two weeks apart. The proposal must be supported by at least three-quarters (3/4) of the votes cast."
+    }
   },
   {
     "id": "15",
-    "title": "15§ Yhdistyksen varojen käyttö sen purkautuessa",
-    "content": "Yhdistyksen purkautuessa varat käytetään yhdistyksen tarkoituksen edistämiseen purkamisesta päättävän kokouksen määräämällä tavalla, esimerkiksi luovuttamalla ne yhdistyksen kanssa samoja tarkoitusperiä ajavalle rekisteröidylle yhdistykselle, julkisyhteisölle tai säätiölle."
+    "title": { "fi": "15§ Yhdistyksen varojen käyttö sen purkautuessa", "en": "Section 15 – Use of the association's assets upon dissolution" },
+    "content": {
+      "fi": "Yhdistyksen purkautuessa varat käytetään yhdistyksen tarkoituksen edistämiseen purkamisesta päättävän kokouksen määräämällä tavalla, esimerkiksi luovuttamalla ne yhdistyksen kanssa samoja tarkoitusperiä ajavalle rekisteröidylle yhdistykselle, julkisyhteisölle tai säätiölle.",
+      "en": "If the association is dissolved, its assets are used to further the association's purpose in the manner determined by the meeting deciding on the dissolution, for example by transferring them to a registered association, public body or foundation pursuing the same objectives as the association."
+    }
   },
   {
     "id": "16",
-    "title": "16§ Voimaantulo",
-    "content": "Sääntömuutos tai purkautumispäätös tulee voimaan, kun se on merkitty yhdistysrekisteriin."
+    "title": { "fi": "16§ Voimaantulo", "en": "Section 16 – Entry into force" },
+    "content": {
+      "fi": "Sääntömuutos tai purkautumispäätös tulee voimaan, kun se on merkitty yhdistysrekisteriin.",
+      "en": "An amendment to the rules or a decision to dissolve takes effect when it is entered in the register of associations."
+    }
   }
 ]

@@ -1,13 +1,19 @@
 [
   {
     "id": 1,
-    "slug": "syyskokous-2025",
-    "title": "Syyskokous 2025",
+    "slug": { "fi": "syyskokous-2025", "en": "autumn-meeting-2025" },
+    "title": { "fi": "Syyskokous 2025", "en": "Autumn Meeting 2025" },
     "date": "2025-11-26",
     "time": "17:00",
     "location": "Google Meets",
-    "intro": "JYTYn syyskokous, jossa käsitellään yhdistyksen asioita ja valitaan hallitus vuodelle 2026.",
-    "content": "<p>Jyväskylän teekkariyhdistys JYTY ry:n syyskokous pidetään 26.11.2025 klo 17:00 Google Meetsissä.</p>",
+    "intro": {
+      "fi": "JYTYn syyskokous, jossa käsitellään yhdistyksen asioita ja valitaan hallitus vuodelle 2026.",
+      "en": "JYTY's autumn meeting, where association matters are handled and the board for 2026 is elected."
+    },
+    "content": {
+      "fi": "<p>Jyväskylän teekkariyhdistys JYTY ry:n syyskokous pidetään 26.11.2025 klo 17:00 Google Meetsissä.</p>",
+      "en": "<p>The autumn meeting of Jyväskylän teekkariyhdistys JYTY ry will be held on 26 November 2025 at 17:00 on Google Meet.</p>"
+    },
     "image": null
   }
 ]

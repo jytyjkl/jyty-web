@@ -7,7 +7,7 @@ export default function Vappustriimi() {
     const chatUrl = `${owncastOrigin}/embed/chat/readwrite`
 
     return (
-      <Layout>
+      <Layout translated={false}>
         <div className={styles.main}>
             <iframe
                 className={styles.stream}

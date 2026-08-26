@@ -1,10 +1,16 @@
 [
   {
     "id": 1,
-    "slug": "hallitus-2026",
-    "title": "JYTYn hallitus vuodelle 2026 valittu",
+    "slug": { "fi": "hallitus-2026", "en": "board-2026" },
+    "title": { "fi": "JYTYn hallitus vuodelle 2026 valittu", "en": "New JYTY board elected for 2026" },
     "date": "2025-11-26",
-    "intro": "Jyväskylän teekkariyhdistys JYTY valitsi uuden hallituksen toimikaudelle 2026.",
-    "content": "<p>Jyväskylän teekkariyhdistys JYTY ry valitsi kokouksessaan uuden hallituksen toimikaudelle 2026.</p><h2>Puheenjohtaja</h2><p><strong>Juho Järvi</strong></p><h2>Varapuheenjohtaja</h2><p><strong>Eemil Hukkanen</strong></p><h2>Sihteeri</h2><p><strong>Ilmo Kurki</strong></p><h2>Rahastonhoitaja</h2><p><strong>Nuutti Rantanen</strong></p><h2>Projektimestari</h2><p><strong>Olli Terävä</strong></p><h2>Webmastari</h2><p><strong>Juho Kallijärvi</strong></p><h2>Hallituksen jäsen</h2><p><strong>Petrus Lipsanen</strong></p><p>Hallitus aloittaa työnsä vuoden 2026 alussa.</p>"
+    "intro": {
+      "fi": "Jyväskylän teekkariyhdistys JYTY valitsi uuden hallituksen toimikaudelle 2026.",
+      "en": "Jyväskylän teekkariyhdistys JYTY has elected a new board for the 2026 term."
+    },
+    "content": {
+      "fi": "<p>Jyväskylän teekkariyhdistys JYTY ry valitsi kokouksessaan uuden hallituksen toimikaudelle 2026.</p><h2>Puheenjohtaja</h2><p><strong>Juho Järvi</strong></p><h2>Varapuheenjohtaja</h2><p><strong>Eemil Hukkanen</strong></p><h2>Sihteeri</h2><p><strong>Ilmo Kurki</strong></p><h2>Rahastonhoitaja</h2><p><strong>Nuutti Rantanen</strong></p><h2>Projektimestari</h2><p><strong>Olli Terävä</strong></p><h2>Webmastari</h2><p><strong>Juho Kallijärvi</strong></p><h2>Hallituksen jäsen</h2><p><strong>Petrus Lipsanen</strong></p><p>Hallitus aloittaa työnsä vuoden 2026 alussa.</p>",
+      "en": "<p>At its meeting, Jyväskylän teekkariyhdistys JYTY ry elected a new board for the 2026 term.</p><h2>Chair</h2><p><strong>Juho Järvi</strong></p><h2>Vice Chair</h2><p><strong>Eemil Hukkanen</strong></p><h2>Secretary</h2><p><strong>Ilmo Kurki</strong></p><h2>Treasurer</h2><p><strong>Nuutti Rantanen</strong></p><h2>Project Master</h2><p><strong>Olli Terävä</strong></p><h2>Webmaster</h2><p><strong>Juho Kallijärvi</strong></p><h2>Board Member</h2><p><strong>Petrus Lipsanen</strong></p><p>The board will begin its work at the start of 2026.</p>"
+    }
   }
 ]

@@ -528,4 +528,43 @@
   background: rgba(230,0,38,0.14);
   color: var(--accent-red);
 }
+
+.languageSwitcher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+}
+
+.languageLink {
+  font-size: .85rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #999;
+  transition: color .15s ease;
+}
+
+.languageLink:hover {
+  color: var(--accent-red);
+}
+
+.languageLinkActive {
+  color: var(--accent-red);
+  pointer-events: none;
+}
+
+.languageLinkDisabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.languageDivider {
+  color: #ccc;
+}
+
+@media (min-width: 900px) {
+  .languageSwitcher {
+    padding: 0 0 0 8px;
+  }
+}
 /* --- END HEADER FIX --- */

@@ -1,54 +1,81 @@
 [
   {
     "id": "lakki-kuvaus",
-    "title": "1 § Teekkarilakki",
+    "title": { "fi": "1 § Teekkarilakki", "en": "Section 1 – The teekkari cap" },
     "paragraphs": [
-      "Jyväskylän teekkarilakki on kahdeksankulmainen, Jyväskylän kävelykadun Kompassin muodon mukaan. Lakin sisäpuoli on Jyväskylän yliopiston värien mukaisesti puoliksi sininen ja puoliksi oranssi. Lakin kokardissa yhdistyvät Jyväskylä sekä tekniikka. Kokardi muodostuu Jyväskylän ylioppilaskunnan (JYY) soihdusta, jota ympäröi tekniikan ratas.",
-      "Ensimmäisen vuoden diplomi-insinööriopiskelijoista eli fukseista tulee teekkareita vappuna, jolloin kasteen jälkeen lakin saa painaa päähänsä. Lakin kantoaika alkaa siis vapun kasteesta ja päättyy syyskuun viimeisenä päivänä pidettäviin lakinlaskijaisiin."
+      {
+        "fi": "Jyväskylän teekkarilakki on kahdeksankulmainen, Jyväskylän kävelykadun Kompassin muodon mukaan. Lakin sisäpuoli on Jyväskylän yliopiston värien mukaisesti puoliksi sininen ja puoliksi oranssi. Lakin kokardissa yhdistyvät Jyväskylä sekä tekniikka. Kokardi muodostuu Jyväskylän ylioppilaskunnan (JYY) soihdusta, jota ympäröi tekniikan ratas.",
+        "en": "The Jyväskylä teekkari cap is octagonal, following the shape of the Kompassi on Jyväskylä's pedestrian street. The inside of the cap is, in line with the colours of the University of Jyväskylä, half blue and half orange. The cap's cockade combines Jyväskylä and technology. The cockade consists of the torch of the Student Union of the University of Jyväskylä (JYY), surrounded by a technology cogwheel."
+      },
+      {
+        "fi": "Ensimmäisen vuoden diplomi-insinööriopiskelijoista eli fukseista tulee teekkareita vappuna, jolloin kasteen jälkeen lakin saa painaa päähänsä. Lakin kantoaika alkaa siis vapun kasteesta ja päättyy syyskuun viimeisenä päivänä pidettäviin lakinlaskijaisiin.",
+        "en": "First-year Master of Science (Technology) students, known as fuksis, become teekkaris on Vappu (May Day), when they may put on the cap after the christening ceremony. The cap-wearing period thus begins with the Vappu christening and ends with the cap-lowering ceremony held on the last day of September."
+      }
     ]
   },
   {
     "id": "kantoaika",
-    "title": "2 § Lakin kantoaika",
-    "content": "Teekkarilakin kantoaika on 30.4.–30.9. Teekkarilakin saa painaa päähänsä 30.4. samaan aikaan, kun Minna Canthin patsas lakitetaan kello 18.00. Lakki lasketaan 30.9. kello 00.00. Muina aikoina teekkarilakkia ei saa kantaa ilman erillistä lakkilupaa, ellei pysyväisohjesääntö erikseen sitä salli. Lakkilupaa haetaan kirjallisesti Jyväskylän teekkariyhdistys ry:n hallitukselta vähintään kolmea arkipäivää etukäteen. Hakemuksessa on käytävä selväksi, mihin tarkoitukseen lakkia aikoo käyttää. Lakkia saa käyttää vain lakkiluvassa määrättynä aikana ja siinä mainitussa tilaisuudessa."
+    "title": { "fi": "2 § Lakin kantoaika", "en": "Section 2 – Cap-wearing period" },
+    "content": {
+      "fi": "Teekkarilakin kantoaika on 30.4.–30.9. Teekkarilakin saa painaa päähänsä 30.4. samaan aikaan, kun Minna Canthin patsas lakitetaan kello 18.00. Lakki lasketaan 30.9. kello 00.00. Muina aikoina teekkarilakkia ei saa kantaa ilman erillistä lakkilupaa, ellei pysyväisohjesääntö erikseen sitä salli. Lakkilupaa haetaan kirjallisesti Jyväskylän teekkariyhdistys ry:n hallitukselta vähintään kolmea arkipäivää etukäteen. Hakemuksessa on käytävä selväksi, mihin tarkoitukseen lakkia aikoo käyttää. Lakkia saa käyttää vain lakkiluvassa määrättynä aikana ja siinä mainitussa tilaisuudessa.",
+      "en": "The teekkari cap-wearing period is 30 April – 30 September. The cap may be put on on 30 April at the same time as the statue of Minna Canth is capped at 18:00. The cap is lowered on 30 September at 00:00. At other times, the teekkari cap may not be worn without a separate cap permit, unless the standing regulations specifically allow it. A cap permit is applied for in writing from the board of Jyväskylän teekkariyhdistys ry at least three working days in advance. The application must clearly state the purpose for which the cap will be used. The cap may only be used during the time specified in the cap permit and at the event mentioned in it."
+    }
   },
   {
     "id": "kanto-oikeus",
-    "title": "3 § Lakin kanto-oikeus",
-    "content": "Kanto-oikeus voidaan myöntää opiskelijalle, joka opiskelee Jyväskylän yliopistossa tekniikan kandidaatiksi ja/tai diplomi-insinööriksi tai tekniikan tohtoriksi. Lakki ojennetaan opiskelija- ja teekkariperinteisiin perehtyneelle ensimmäisen vuoden tekniikan ylioppilaalle 30.4. yhteisessä teekkarikasteessa, muutoin lakki ojennetaan äitienpäivänä. Lakin käyttöoikeus on elinikäinen."
+    "title": { "fi": "3 § Lakin kanto-oikeus", "en": "Section 3 – Right to wear the cap" },
+    "content": {
+      "fi": "Kanto-oikeus voidaan myöntää opiskelijalle, joka opiskelee Jyväskylän yliopistossa tekniikan kandidaatiksi ja/tai diplomi-insinööriksi tai tekniikan tohtoriksi. Lakki ojennetaan opiskelija- ja teekkariperinteisiin perehtyneelle ensimmäisen vuoden tekniikan ylioppilaalle 30.4. yhteisessä teekkarikasteessa, muutoin lakki ojennetaan äitienpäivänä. Lakin käyttöoikeus on elinikäinen.",
+      "en": "The right to wear the cap may be granted to a student studying at the University of Jyväskylä towards a Bachelor of Science (Technology) and/or Master of Science (Technology), or a Doctor of Science (Technology) degree. The cap is presented, at the joint teekkari christening on 30 April, to a first-year technology student who is familiar with student and teekkari traditions; otherwise the cap is presented on Mother's Day. The right to wear the cap is lifelong."
+    }
   },
   {
     "id": "kaytto",
-    "title": "4 § Lakin käyttö",
-    "content": "Teekkarilakkia käytetään kunnioittaen ja sitä halventamatta. Lakkia ei saa luovuttaa henkilöille, joilla ei ole teekkarilakin kanto-oikeutta. Teekkareiden kokoontuessa noustaan keskiyöllä korkeimmalle mahdolliselle kohdalle, nostetaan lakki käsi ojennettuna pään yläpuolelle ja lauletaan Teekkarihymni pimennetyssä tilassa, mikäli mahdollista. Lakin kantoaikana lakki lasketaan takaisin päähän teekkarihymnin jälkeen, mutta lakinlaskijaisissa se lasketaan olkapäälle."
+    "title": { "fi": "4 § Lakin käyttö", "en": "Section 4 – Use of the cap" },
+    "content": {
+      "fi": "Teekkarilakkia käytetään kunnioittaen ja sitä halventamatta. Lakkia ei saa luovuttaa henkilöille, joilla ei ole teekkarilakin kanto-oikeutta. Teekkareiden kokoontuessa noustaan keskiyöllä korkeimmalle mahdolliselle kohdalle, nostetaan lakki käsi ojennettuna pään yläpuolelle ja lauletaan Teekkarihymni pimennetyssä tilassa, mikäli mahdollista. Lakin kantoaikana lakki lasketaan takaisin päähän teekkarihymnin jälkeen, mutta lakinlaskijaisissa se lasketaan olkapäälle.",
+      "en": "The teekkari cap is worn with respect and without demeaning it. The cap must not be handed over to people who do not have the right to wear the teekkari cap. When teekkaris gather, at midnight they climb to the highest possible point, raise the cap above their head with an outstretched arm, and sing the Teekkari Anthem in a darkened space, if possible. During the cap-wearing period, the cap is put back on the head after the Teekkari Anthem, but at the cap-lowering ceremony it is lowered onto the shoulder instead."
+    }
   },
   {
     "id": "pysyva",
-    "title": "5 § Pysyväisohjesääntö",
-    "content": "Teekkarilakkia saa käyttää ilman erillistä lupaa seuraavissa tilaisuuksissa:",
+    "title": { "fi": "5 § Pysyväisohjesääntö", "en": "Section 5 – Standing regulations" },
+    "content": {
+      "fi": "Teekkarilakkia saa käyttää ilman erillistä lupaa seuraavissa tilaisuuksissa:",
+      "en": "The teekkari cap may be worn without a separate permit at the following events:"
+    },
     "items": [
-      "Jyväskylän yliopiston esittelytilaisuuksissa",
-      "Itsenäisyyspäivän soihtukulkueessa",
-      "Lippuairueessa toimiville",
-      "Jäynäkisoissa",
-      "Titeenien taistoissa",
-      "TEKin valtakunnallisissa tapahtumissa",
-      "Tietoteekkariyhdistys ry:n valtakunnallisissa tapahtumissa",
-      "Jyväskylän yliopiston ylioppilaskunnan (JYY) edustajiston kokouksissa",
-      "Suomen ylioppilaskuntien liiton (SYL) liittokokouksissa"
+      { "fi": "Jyväskylän yliopiston esittelytilaisuuksissa", "en": "University of Jyväskylä presentation events" },
+      { "fi": "Itsenäisyyspäivän soihtukulkueessa", "en": "the Independence Day torch procession" },
+      { "fi": "Lippuairueessa toimiville", "en": "for those serving in the colour guard" },
+      { "fi": "Jäynäkisoissa", "en": "Jäynäkisat (prank competitions)" },
+      { "fi": "Titeenien taistoissa", "en": "Titeenien taistot (technology students' games)" },
+      { "fi": "TEKin valtakunnallisissa tapahtumissa", "en": "national events of TEK (the Finnish Association of Graduate Engineers)" },
+      { "fi": "Tietoteekkariyhdistys ry:n valtakunnallisissa tapahtumissa", "en": "national events of Tietoteekkariyhdistys ry" },
+      { "fi": "Jyväskylän yliopiston ylioppilaskunnan (JYY) edustajiston kokouksissa", "en": "meetings of the Representative Council of the Student Union of the University of Jyväskylä (JYY)" },
+      { "fi": "Suomen ylioppilaskuntien liiton (SYL) liittokokouksissa", "en": "congresses of the National Union of University Students in Finland (SYL)" }
     ]
   },
   {
     "id": "muut",
-    "title": "6 § Muut säädökset",
+    "title": { "fi": "6 § Muut säädökset", "en": "Section 6 – Other provisions" },
     "paragraphs": [
-      "Teekkarilakkia ei kuulu korjata itse, ja jokaista reikää ja repsottavaa kohtaa vaalitaan merkkinä menneistä vuosista. Jos kuitenkin lakin kunto heikkenee liikaa, niin lakki kuuluu hävittää olemattomiin kaapinperälle ja hankkia uusi lakki tilalle.",
-      "Jos teekkari osoittaa jatkuvaa piittaamattomuutta teekkarilakkia kohtaan, niin häntä voidaan rangaista teekkarikerhon päättämällä tavalla."
+      {
+        "fi": "Teekkarilakkia ei kuulu korjata itse, ja jokaista reikää ja repsottavaa kohtaa vaalitaan merkkinä menneistä vuosista. Jos kuitenkin lakin kunto heikkenee liikaa, niin lakki kuuluu hävittää olemattomiin kaapinperälle ja hankkia uusi lakki tilalle.",
+        "en": "The teekkari cap should not be repaired by its owner, and every hole and worn spot is cherished as a mark of years gone by. If, however, the cap's condition deteriorates too much, it should be retired to the back of the closet and a new cap acquired in its place."
+      },
+      {
+        "fi": "Jos teekkari osoittaa jatkuvaa piittaamattomuutta teekkarilakkia kohtaan, niin häntä voidaan rangaista teekkarikerhon päättämällä tavalla.",
+        "en": "If a teekkari repeatedly shows disregard for the teekkari cap, they may be punished in a manner decided by the teekkari club."
+      }
     ]
   },
   {
     "id": "muutokset",
-    "title": "7 § Ohjesäännön muuttaminen",
-    "content": "Tämä ohjesääntö hyväksyttiin ensimmäistä kertaa keväällä 2022. Ohjesääntöä voidaan muuttaa tätä ohjesääntöä ylläpitävän yhdistyksen kokouksessa. Tätä ohjesääntöä ylläpitää Jyväskylän teekkariyhdistys ry."
+    "title": { "fi": "7 § Ohjesäännön muuttaminen", "en": "Section 7 – Amending the regulations" },
+    "content": {
+      "fi": "Tämä ohjesääntö hyväksyttiin ensimmäistä kertaa keväällä 2022. Ohjesääntöä voidaan muuttaa tätä ohjesääntöä ylläpitävän yhdistyksen kokouksessa. Tätä ohjesääntöä ylläpitää Jyväskylän teekkariyhdistys ry.",
+      "en": "These regulations were first adopted in spring 2022. The regulations may be amended at a meeting of the association that maintains them. These regulations are maintained by Jyväskylän teekkariyhdistys ry."
+    }
   }
 ]

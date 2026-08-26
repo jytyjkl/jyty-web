@@ -28,7 +28,7 @@ export default function Arkisto() {
   const sorted = [...materials].sort((a, b) => b.year - a.year);
 
   return (
-    <Layout title="Arkisto - Jyväskylän Teekkariyhdistys" description="Vappu- ja tapahtumamateriaalien arkisto">
+    <Layout title="Arkisto - Jyväskylän Teekkariyhdistys" description="Vappu- ja tapahtumamateriaalien arkisto" translated={false}>
       <div className="container-wide stack-gap">
         <header className={styles.header}>
           <h1 className={styles.title}>Arkisto</h1>

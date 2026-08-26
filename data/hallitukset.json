@@ -6,66 +6,102 @@
       "members": [
         {
           "name": "Juho Järvi",
-          "title": "Puheenjohtaja",
+          "role": "chair",
+          "title": { "fi": "Puheenjohtaja", "en": "Chair" },
           "image": "hallitus/juho.jpg",
           "email": "pj@jytyjkl.fi",
-          "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
+          "description": {
+            "fi": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta.",
+            "en": "Leads the association's activities and is responsible for overall direction and representation."
+          }
         },
         {
           "name": "Eemil Hukkanen",
-          "title": "Varapuheenjohtaja",
+          "role": "vice_chair",
+          "title": { "fi": "Varapuheenjohtaja", "en": "Vice Chair" },
           "image": "hallitus/eemil.jpg",
           "email": "pj@jytyjkl.fi",
-          "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
+          "description": {
+            "fi": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista.",
+            "en": "Supports the chair and is responsible for development and project matters."
+          }
         },
         {
           "name": "Ilmo Kurki",
-          "title": "Sihteeri",
+          "role": "secretary",
+          "title": { "fi": "Sihteeri", "en": "Secretary" },
           "image": "hallitus/ilmo.jpg",
           "email": "ilmo.kurki@jytyjkl.fi",
-          "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
+          "description": {
+            "fi": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus.",
+            "en": "Minutes, documentation and internal communications."
+          }
         },
         {
           "name": "Nuutti Rantanen",
-          "title": "Rahastonhoitaja",
+          "role": "treasurer",
+          "title": { "fi": "Rahastonhoitaja", "en": "Treasurer" },
           "image": "hallitus/nuutti.jpg",
           "email": "nuutti.rantanen@jytyjkl.fi",
-          "description": "Talouden seuranta, budjetointi ja maksuliikenne."
+          "description": {
+            "fi": "Talouden seuranta, budjetointi ja maksuliikenne.",
+            "en": "Financial oversight, budgeting and payment transactions."
+          }
         },
         {
           "name": "Kasper Pelkonen",
-          "title": "Kiltavastaava",
+          "role": "guild_officer",
+          "title": { "fi": "Kiltavastaava", "en": "Guild Officer" },
           "image": "hallitus/kassu.jpg",
           "email": "kasper.pelkonen@jytyjkl.fi",
-          "description": "Yhteys kiltoihin ja yhteistyö rajapinnat."
+          "description": {
+            "fi": "Yhteys kiltoihin ja yhteistyö rajapinnat.",
+            "en": "Contact point with guilds and cooperation partners."
+          }
         },
         {
           "name": "Lassi Laitinen",
-          "title": "Teekkarikulttuurivastaava",
+          "role": "culture_officer",
+          "title": { "fi": "Teekkarikulttuurivastaava", "en": "Culture Officer" },
           "image": "hallitus/lassi.jpg",
           "email": "lassi.laitinen@jytyjkl.fi",
-          "description": "Perinteet, tapahtumaperinne ja teekkarisisällöt."
+          "description": {
+            "fi": "Perinteet, tapahtumaperinne ja teekkarisisällöt.",
+            "en": "Traditions, event traditions and teekkari culture content."
+          }
         },
         {
           "name": "Atte Heikkinen",
-          "title": "Viestintävastaava",
+          "role": "communications_officer",
+          "title": { "fi": "Viestintävastaava", "en": "Communications Officer" },
           "image": "hallitus/atte.jpg",
           "email": "atte.heikkinen@jytyjkl.fi",
-          "description": "Sisäinen ja ulkoinen viestintä, kanavien koordinointi."
+          "description": {
+            "fi": "Sisäinen ja ulkoinen viestintä, kanavien koordinointi.",
+            "en": "Internal and external communications, channel coordination."
+          }
         },
         {
           "name": "Juho Kallijärvi",
-          "title": "Mediavastaava",
+          "role": "media_officer",
+          "title": { "fi": "Mediavastaava", "en": "Media Officer" },
           "image": "logo.png",
           "email": "juho.kallijarvi@jytyjkl.fi",
-          "description": "Media, visuaalinen materiaali ja tuotannot."
+          "description": {
+            "fi": "Media, visuaalinen materiaali ja tuotannot.",
+            "en": "Media, visual material and productions."
+          }
         },
         {
           "name": "Theodore Veistos",
-          "title": "Somevastaava",
+          "role": "social_media_officer",
+          "title": { "fi": "Somevastaava", "en": "Social Media Officer" },
           "image": "logo.png",
           "email": "theodore.veistos@jytyjkl.fi",
-          "description": "Sosiaalinen media ja reaaliaikainen näkyvyys."
+          "description": {
+            "fi": "Sosiaalinen media ja reaaliaikainen näkyvyys.",
+            "en": "Social media and real-time visibility."
+          }
         }
       ]
     },
@@ -74,52 +110,80 @@
       "members": [
         {
           "name": "Juho Järvi",
-          "title": "Puheenjohtaja",
+          "role": "chair",
+          "title": { "fi": "Puheenjohtaja", "en": "Chair" },
           "image": "hallitus/juho.jpg",
           "email": "pj@jytyjkl.fi",
-          "description": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta."
+          "description": {
+            "fi": "Johtaa toimintaa, vastaa kokonaisuudesta ja edustuksesta.",
+            "en": "Leads the association's activities and is responsible for overall direction and representation."
+          }
         },
         {
           "name": "Eemil Hukkanen",
-          "title": "Varapuheenjohtaja",
+          "role": "vice_chair",
+          "title": { "fi": "Varapuheenjohtaja", "en": "Vice Chair" },
           "image": "hallitus/eemil.jpg",
           "email": "pj@jytyjkl.fi",
-          "description": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista."
+          "description": {
+            "fi": "Tukee puheenjohtajaa, vastaa kehitys- ja projektiasioista.",
+            "en": "Supports the chair and is responsible for development and project matters."
+          }
         },
         {
           "name": "Ilmo Kurki",
-          "title": "Sihteeri",
+          "role": "secretary",
+          "title": { "fi": "Sihteeri", "en": "Secretary" },
           "image": "hallitus/ilmo.jpg",
           "email": "ilmo.kurki@jytyjkl.fi",
-          "description": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus."
+          "description": {
+            "fi": "Pöytäkirjat, dokumentaatio ja sisäinen tiedotus.",
+            "en": "Minutes, documentation and internal communications."
+          }
         },
         {
           "name": "Nuutti Rantanen",
-          "title": "Rahastonhoitaja",
+          "role": "treasurer",
+          "title": { "fi": "Rahastonhoitaja", "en": "Treasurer" },
           "image": "hallitus/nuutti.jpg",
           "email": "nuutti.rantanen@jytyjkl.fi",
-          "description": "Talouden seuranta, budjetointi ja maksuliikenne."
+          "description": {
+            "fi": "Talouden seuranta, budjetointi ja maksuliikenne.",
+            "en": "Financial oversight, budgeting and payment transactions."
+          }
         },
         {
           "name": "Olli Terävä",
-          "title": "Projektimestari",
+          "role": "project_master",
+          "title": { "fi": "Projektimestari", "en": "Project Master" },
           "image": "logo.png",
           "email": "olli.terava@jytyjkl.fi",
-          "description": "Projektien koordinointi ja toteutus."
+          "description": {
+            "fi": "Projektien koordinointi ja toteutus.",
+            "en": "Coordination and execution of projects."
+          }
         },
         {
           "name": "Juho Kallijärvi",
-          "title": "Webmestari",
+          "role": "webmaster",
+          "title": { "fi": "Webmestari", "en": "Webmaster" },
           "image": "logo.png",
           "email": "juho.kallijarvi@jytyjkl.fi",
-          "description": "Verkkosivut ja digitaaliset palvelut."
+          "description": {
+            "fi": "Verkkosivut ja digitaaliset palvelut.",
+            "en": "Website and digital services."
+          }
         },
         {
           "name": "Petrus Lipsanen",
-          "title": "Hallituksen jäsen",
+          "role": "board_member",
+          "title": { "fi": "Hallituksen jäsen", "en": "Board Member" },
           "image": "logo.png",
           "email": "petrus.lipsanen@jytyjkl.fi",
-          "description": "Hallitustyö ja toiminnan tukeminen."
+          "description": {
+            "fi": "Hallitustyö ja toiminnan tukeminen.",
+            "en": "Board work and supporting the association's activities."
+          }
         }
       ]
     }
