@@ -56,22 +56,20 @@ function LanguageOption({ label, isActive, href, disabledTitle }) {
 }
 
 export default function LanguageSwitcher({ locale, alternateHref }) {
-  const dict = getDictionary(locale);
-
   return (
     <div className={styles.languageSwitcher} aria-label="Kieli / Language">
       <LanguageOption
         label="FI"
         isActive={locale === "fi"}
         href={locale === "fi" ? null : alternateHref}
-        disabledTitle={dict.common.notTranslated}
+        disabledTitle={getDictionary("fi").common.notTranslated}
       />
       <span className={styles.languageDivider}>·</span>
       <LanguageOption
         label="EN"
         isActive={locale === "en"}
         href={locale === "en" ? null : alternateHref}
-        disabledTitle={dict.common.notTranslated}
+        disabledTitle={getDictionary("en").common.notTranslated}
       />
     </div>
   );
